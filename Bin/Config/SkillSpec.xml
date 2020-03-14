@@ -1,0 +1,727 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spec>
+  <Enums>
+    <enum id="enum.double"/>
+    <enum id="enum.number"/>
+    <enum id="enum.string"/>
+    <enum id="enum.bool">
+      <value name="false">0</value>
+      <value name="true">1</value>
+    </enum>
+
+    <enum id="enum.logicparam">
+      <value name="无逻辑参数">0</value>
+      <value name="逻辑参数1">1</value>
+      <value name="逻辑参数2">2</value>
+      <value name="逻辑参数3">3</value>
+      <value name="逻辑参数4">4</value>
+      <value name="逻辑参数5">5</value>
+      <value name="逻辑参数6">6</value>
+      <value name="逻辑参数7">7</value>
+      <value name="逻辑参数8">8</value>
+      <value name="逻辑参数9">9</value>
+      <value name="逻辑参数10">10</value>
+      <value name="逻辑参数11">11</value>
+      <value name="逻辑参数12">12</value>
+      <value name="逻辑参数13">13</value>
+      <value name="逻辑参数14">14</value>
+      <value name="逻辑参数15">15</value>
+    </enum>   
+
+    <enum id="enum.state" ischeck="1">
+      <value name="无指定子分类">0</value>
+      <value name="眩晕类效果">1</value>
+      <value name="魅惑类效果">2</value>
+      <value name="昏睡类效果">4</value>
+      <value name="定身类效果">8</value>
+      <value name="虚弱类效果">16</value>
+      <value name="伤害类效果">32</value>
+      <value name="属性增益类效果">64</value>
+      <value name="属性减益类效果">128</value>
+      <value name="HOT类效果">256</value>
+      <value name="DOT类效果">512</value>
+      <value name="减速类">1024</value>
+      <value name="打断类">2048</value>
+      <value name="可被削弱的抽蓝BUFF">4096</value>
+      <value name="特殊活动场景技能">8192</value>
+      <value name="僵直">16384</value>
+      <value name="击倒">32768</value>
+      <value name="击退">65536</value>
+      <value name="浮空">131072</value>
+      <value name="拖拽携带">262144</value>
+    </enum>
+
+    <enum id="enum.savetargettype" ischeck="1">
+      <value name="无效目标">0</value>
+      <value name="选中目标">1</value>
+      <value name="自己">2</value>
+      <value name="伙伴主人">4</value>
+      <value name="扫描目标">16</value>
+    </enum>
+
+    <enum id="enum.targettype" ischeck="1">
+      <value name="无效目标">0</value>
+      <value name="选中目标">1</value>
+      <value name="自己">2</value>
+      <value name="伙伴主人">4</value>
+      <value name="扫描目标">16</value>
+      <value name="保存目标">32</value>
+    </enum>
+
+    <enum id="enum.savepostype">
+      <value name="无效位置" desc="无效位置">0</value>
+      <value name="自身的位置" desc="自身的位置-角色自身位置">1</value>
+      <value name="场景位置" desc="场景位置-通过posxoff/poszoff传入的场景位置">2</value>
+      <value name="选中目标的位置" desc="选中目标的位置-通过AI/手动等方式选择的目标位置">3</value>
+      <value name="扫描目标的位置" desc="扫描目标的位置-通过scan系列指令选择的目标位置">5</value>
+      <value name="保存的目标的位置" desc="保存目标的位置-通过【保存目标】指令记录的目标的位置">7</value>
+    </enum>
+
+    <enum id="enum.postype">
+      <value name="无效位置" desc="无效位置">0</value>
+      <value name="自身的位置" desc="自身的位置-角色自身位置">1</value>
+      <value name="选中目标的位置" desc="选中目标的位置-通过AI/手动等方式选择的目标位置">3</value>
+      <value name="扫描目标的位置" desc="扫描目标的位置-通过scan系列指令选择的目标位置">5</value>
+      <value name="保存的坐标点" desc="保存坐标点-通过【保存坐标】指令记录的位置">6</value>
+      <value name="保存的目标的位置" desc="保存目标的位置-通过【保存目标】指令记录的目标的位置">7</value>
+    </enum>
+
+    <enum id="enum.npctype">
+      <value name="普通NPC">0</value>
+      <value name="陷阱">1</value>
+    </enum>
+
+    <enum id="enum.scanimpacttype">
+      <value name="全部">0</value>
+      <value name="最大剩余时间">1</value>
+      <value name="最小剩余时间">2</value>
+      <value name="最大剩余时间差">3</value>
+      <value name="最小剩余时间差">4</value>
+      <value name="最近添加">5</value>
+      <value name="最久添加">6</value>
+    </enum>
+
+    <enum id="enum.updateimpacttype">
+      <value name="增加时间(单位毫秒，可为负数，默认值)">0</value>
+      <value name="修改百分比(0-100，默认100)">1</value>
+    </enum>
+
+    <enum id="enum.updatechaineffecttype">
+      <value name="目标ID" desc="根据目标ID在客户端查找目获取实时位置，并在链条显示过程中实时变化">0</value>
+      <value name="目标的位置" desc="从服务器获取位置，或者在链条初始时获取其在客户端的实时位置，在链条显示过程中不再变化">1</value>
+      <value name="发送者相对位置" desc="发送者的相对位置-相对于角色自身的相对位置，在链条显示过程中不再变化">2</value>
+    </enum>
+
+    <enum id="enum.effecttype">
+      <value name="圆">0</value>
+      <value name="矩形">1</value>
+      <value name="箭头">2</value>
+      <value name="半圆">3</value>
+      <value name="扇形60度">4</value>
+      <value name="环形">5</value>
+      <value name="瞄准器">6</value>
+      <value name="动态变长箭头">7</value>
+      <value name="扇形90度">8</value>
+      <value name="扇形180度">9</value>
+    </enum>
+   
+    <enum id="enum.effectshowtype">
+      <value name="无">-1</value>
+      <value name="铺满">1</value>
+      <value name="闪烁">2</value>
+      <value name="单向铺满">3</value>
+    </enum> 
+
+    <enum id="enum.scanobjtype" ischeck="1">
+      <value name="无">0</value>
+      <value name="自身">1</value>
+      <value name="队友">2</value>
+      <value name="敌人">4</value>
+      <value name="友方玩家">8</value>
+      <value name="友方战斗类NPC">16</value>
+      <value name="伙伴主人">32</value>
+      <value name="敌对玩家">64</value>
+      <value name="敌对NPC">128</value>
+      <value name="敌对AI玩家">256</value>
+      <value name="友方AI玩家">512</value>
+      <value name="可被玩家治疗的助战类NPC">1024</value>
+    </enum>
+  
+    <enum id="enum.facedirtype">
+      <value name="无效朝向" desc="无效朝向数据">0</value>
+      <value name="相对当前朝向" desc="相对当前朝向-在当前朝向上增加偏移">1</value>
+      <value name="场景绝对朝向" desc="场景绝对朝向值-绝对的朝向值，由dir设置">2</value>
+      <value name="趋近目标的朝向" desc="趋近目标的朝向-根据目标位置，向其偏转">3</value>
+    </enum>
+
+    <enum id="enum.soundtype">
+      <value name="音效">1</value>
+      <value name="场景背景音乐">2</value>
+    </enum>
+
+    <enum id="enum.setrangeeffecttype">
+      <value name="无">0</value>
+      <value name="显示">1</value>
+      <value name="隐藏">2</value>
+      <value name="重新填充">3</value>
+    </enum>
+  
+    <enum id="enum.scalerangeeffecttype">
+      <value name="绝对值" desc="绝对值-设置缩放比率">0</value>
+      <value name="与目标距离" desc="与目标距离-根据与目标的距离设置缩放比率">1</value>
+    </enum>
+
+    <enum id="enum.nodetype">
+      <value name="段落" data=":/icons/Icons/node_section.png" intarg1="1" intarg2="1" intarg3="3">0</value>
+      <value name="条件" data=":/icons/Icons/node_cond.png" intarg1="2" intarg2="-1" intarg3="3">1</value>
+      <value name="指令-控制" data=":/icons/Icons/node_action_control.png" intarg1="2" intarg2="-1" intarg3="3">2</value>
+      <value name="指令-表现" data=":/icons/Icons/node_action_gfx.png" intarg1="2" intarg2="-1" intarg3="3">3</value>
+      <value name="指令-移动" data=":/icons/Icons/node_action_move.png" intarg1="2" intarg2="-1" intarg3="3">4</value>
+      <value name="指令-扫描" data=":/icons/Icons/node_action_scan.png" intarg1="2" intarg2="-1" intarg3="3">5</value>
+      <value name="指令-角色" data=":/icons/Icons/node_action_obj.png" intarg1="2" intarg2="-1" intarg3="2">6</value>
+      <value name="指令-效果" data=":/icons/Icons/node_action_impact.png" intarg1="2" intarg2="-1" intarg3="2">7</value>
+      <value name="指令-工具" data=":/icons/Icons/node_action_tool.png" intarg1="2" intarg2="-1" intarg3="2">8</value>
+    </enum>
+
+    <enum id="enum.public" ischeck="1">
+      <value name="客户端可用">1</value>
+      <value name="服务器可用">2</value>
+    </enum>
+
+    <enum id="enum.cmptype">
+      <value name="等于">0</value>
+      <value name="不等于">1</value>
+      <value name="大于">2</value>
+      <value name="大于等于">3</value>
+      <value name="小于">4</value>
+      <value name="小于等于">5</value>
+    </enum>
+
+    <enum id="enum.baseattrtype">
+      <value name="血量">0</value>
+      <value name="蓝量">1</value>
+      <value name="真气">2</value>
+      <value name="保留">3</value>
+    </enum>
+
+    <enum id="enum.condtype">
+      <value name="无条件">0</value>
+      <value name="是否拥有impact">1</value>
+      <value name="是否在impact状态下">2</value>
+      <value name="是否有目标">3</value>
+      <value name="基础属性的(当前值/最大值)的百分比">4</value>
+    </enum>
+
+    <enum id="enum.condlink">
+      <value name="与">0</value>
+      <value name="或">1</value>
+    </enum>
+
+    <enum id="enum.jumpcond">
+      <value name="无条件跳转">0</value>
+      <value name="条件状态为false时跳转">0</value>
+      <value name="条件状态为true时跳转">1</value>
+      <value name="循环数为false时跳转">2</value>
+      <value name="循环数为true时跳转">3</value>
+    </enum>
+
+    <enum id="enum.opstatetype">
+      <value name="无">0</value>
+      <value name="loop计数器">1</value>
+    </enum>
+
+    <enum id="enum.impacttype">
+      <value name="0-攻击造成的伤害">0</value>
+      <value name="1-向周围目标派发子效果(延迟派发)(注：是该1号逻辑效果的发送者 向该效果的拥有者周围发送子效果)">1</value>
+      <value name="2-持续定时向周围目标派发子效果（该2号逻辑的效果发送者定时向该效果的拥有者周围发送子效果）">2</value>
+      <value name="5-GOD 模式 不吃任何减益效果 无敌">5</value>
+      <value name="6- 纯标记类效果">6</value>
+      <value name="8-魅惑(能移动，不可以施放技能，受伤害不解除)">8</value>
+      <value name="9-昏睡(不能移动，不可以施放技能，受伤害解除)">9</value>
+      <value name="12-冲锋效果">12</value>
+      <value name="13-瞬移效果">13</value>
+      <value name="14-击退效果">14</value>
+      <value name="15-拉人效果(将目标直接抓到自己的周围 跟击退效果相反)(云梦职业是否生效要检测魅惑精通)">15</value>
+      <value name="16-对当前选中单体目标派发子效果">16</value>
+      <value name="17-直接回血回蓝回真元效果(非治疗效果 治疗效果有另外的)">17</value>
+      <value name="18-嘲讽">18</value>
+      <value name="19-浮空效果">19</value>
+      <value name="20-驱散">20</value>
+      <value name="21-免疫">21</value>
+      <value name="23-受到的伤害修正(如果要对发出的伤害放大 则可以参考29号逻辑)">23</value>
+      <value name="24-伤害免疫">24</value>
+      <value name="25-受到的伤害吸收反射">25</value>
+      <value name="26-隐身">26</value>
+      <value name="27-治疗">27</value>
+      <value name="28-当前气血转换成战斗属性(不扣除当前气血)">28</value>
+      <value name="29-发出的伤害做出修正(如果要对受到伤害做修正 则可以参考23号逻辑)">29</value>
+      <value name="30-将效果接收者在效果发送者的仇恨列表移除">30</value>
+      <value name="31-复活效果(持续的 需要效果拥有这自己选择是否复活)">31</value>
+      <value name="32-暴击率修正">32</value>
+      <value name="33-消耗气血或者真气转成附加的攻击力或者附加伤害百分比（仅针对本次技能发出的攻击伤害 ）   ">33</value>
+      <value name="34-打断当前技能">34</value>
+      <value name="35-修正气血真气的回复量（目前支持 药品 治疗BUFF【27号】 回复气血真气的BUFF【17号】）">35</value>
+      <value name="36-持续定时向周围随机一个目标派发子效果（该效果发送者定时向该效果的拥有者周围发送子效果）">36</value>
+      <value name="38-真气护盾（有护盾的玩家受到伤害时 只会受到部分伤害 剩余部分扣除发送者的真气抵消）">38</value>
+      <value name="39-限定承受指定技能的伤害反射">39</value>
+      <value name="40-修正当前拥有者身上的Buff时长。">40</value>
+      <value name="60-选择目标点">60</value>
+      <value name="61-玩家加速跑buff标记（加速数值根据玩家职业配置）">61</value>
+      <value name="62-触发指定类型的技能">62</value>
+      <value name="63-修正此Impact拥有者身上当前的状态类Impact时长（状态类Impact必须由限定技能发出），">63</value>
+      <value name="64-计数功能标记叠加层数">64</value>
+      <value name="65-盾牌逻辑">65</value>
+      <value name="66-个体随机乱跑逻辑">66</value>
+      <value name="67-子弹时间">67</value>
+    </enum>
+  </Enums>
+
+  <Skills>
+    <limit desc="约束" mincls="1" maxcls="1"/>
+    <skill id="root" title="技能根节点" desc="技能根节点" format="" nodetype="-1" code="0" public="3"/>
+  </Skills>
+
+  <Sections>
+    <limit desc="约束" mincls="1" maxcls="1"/>
+    <section id="onstart" title="段落：开始触发" desc="段落：开始触发" format="" nodetype="0" code="1" public="2"/>
+    <section id="onframe" title="段落：帧触发" desc="段落：帧触发" format="duration" nodetype="0" code="2" public="2">
+        <duration title="持续时间(毫秒)" desc="持续时间(毫秒)，无限制填-1" type="enum.number" min="-1" max="" default="-1" isneed="0"/>
+    </section>
+    <section id="ontick" title="段落：时间触发" desc="段落：时间触发" format="duration:interval" nodetype="0" code="3" public="2">
+        <duration title="持续时间(毫秒)" desc="持续时间(毫秒)，无限制填-1" type="enum.number" min="-1" max="" default="-1" isneed="0"/>
+        <interval title="间隔时间/毫秒" desc="间隔时间/毫秒" type="enum.number" min="50" max="" default="100" isneed="5"/>
+    </section>
+    <section id="onfinish" title="段落：结束触发" desc="段落：结束触发" format="" nodetype="0" code="4" public="2"/>
+    <section id="onbreak" title="段落：中断触发" desc="段落：中断触发，随后再执行[段落：结束触发]" format="" nodetype="0" code="5" public="2"/>
+  </Sections>
+
+  <Conds>
+    <!--条件相关cond-->
+    <limit desc="约束" mincls="2" maxcls="-1"/>
+    
+    <cond id="hasimpact" title="条件：是否拥有impact" desc="条件：检查角色自身是否拥有某个impactId，并在当前出于激活状态。" format="impactid" nodetype="1" code="101" public="3">
+      <link title="与上一个条件的关联关系" desc="与上一个条件的关联关系" type="enum.condlink" default="0" isneed="0"/>
+      <impactid title="效果id" desc="效果id" type="enum.number" min="-1" max="" default="-1" isneed="1"/>
+    </cond>
+
+    <cond id="hasstate" title="条件：是否在impact状态下" desc="条件：检查角色自身是否在某个impact状态，角色状态来自Impact.txt表中ImpactSubclass列。" format="state" nodetype="1" code="102" public="3">
+        <link title="与上一个条件的关联关系" desc="与上一个条件的关联关系" type="enum.condlink" default="0" isneed="0"/>
+        <state title="状态类型" desc="状态类型" type="enum.state" default="0" isneed="1"/>
+    </cond>
+
+    <cond id="hastarget" title="条件：是否有目标" desc="条件：检查角色自身是否此类型的目标，并满足距离限制。" format="targettype" nodetype="1" code="103" public="3">
+        <link title="与上一个条件的关联关系" desc="与上一个条件的关联关系" type="enum.condlink" default="0" isneed="0"/>
+        <targettype title="目标类型" desc="目标类型方式" type="enum.targettype" default="0" isneed="1"/>
+        <istargetself title="是否允许目标是自己" desc="是否允许目标是自己" type="enum.bool" default="0" isneed="0"/>
+    </cond>
+
+    <cond id="cmpbaseattr" title="条件：基础属性的(当前值/最大值)的百分比" desc="条件：基础属性的(当前值/最大值)的百分比" format="attrtype:cmptype:value" nodetype="1" code="104" public="3">
+        <link title="与上一个条件的关联关系" desc="与上一个条件的关联关系" type="enum.condlink" default="0" isneed="0"/>
+        <attrtype title="基础属性" desc="基础属性" type="enum.baseattrtype" default="0" isneed="1"/>
+        <cmptype title="比较符号" desc="比较符号" type="enum.cmptype" default="0" isneed="1"/>
+        <value title="值" desc="值" type="enum.number" min="0" max="100" default="0" isneed="1"/>
+    </cond>
+
+    <cond id="testtargetdir" title="条件：目标位置与自己正向的角度差" desc="条件：测试目标位置与自己正向的角度差，检查是否在区间内（含）" format="targettype:mindir:maxdir" nodetype="1" code="105" public="3">
+        <link title="与上一个条件的关联关系" desc="与上一个条件的关联关系" type="enum.condlink" default="0" isneed="0"/>
+        <targettype title="目标类型" desc="目标类型方式" type="enum.targettype" default="0" isneed="1"/>
+        <istargetself title="是否允许目标是自己" desc="是否允许目标是自己" type="enum.bool" default="0" isneed="0"/>
+        <mindir title="角度区间最小值（角度，含）" desc="角度区间最小值" type="enum.number" min="-360" max="360" default="0" isneed="0"/>
+        <maxdir title="角度区间最大值（角度，含）" desc="角度区间最大值" type="enum.number" min="-360" max="360" default="360" isneed="0"/>
+    </cond>
+
+    <cond id="testtargetdis" title="条件：目标位置与自己的距离" desc="条件：测试目标位置与自己的距离，检查是否在区间内（含）" format="targettype" nodetype="1" code="106" public="3">
+        <link title="与上一个条件的关联关系" desc="与上一个条件的关联关系" type="enum.condlink" default="0" isneed="0"/>
+        <targettype title="目标类型" desc="目标类型方式" type="enum.targettype" default="0" isneed="1"/>
+        <istargetself title="是否允许目标是自己" desc="是否允许目标是自己" type="enum.bool" default="0" isneed="0"/>
+        <mindis title="距离区间最小值（厘米，含）" desc="距离区间最小值" type="enum.number" min="0" max="" default="0" isneed="0"/>
+        <maxdis title="距离区间最大值（厘米，含）" desc="距离区间最大值" type="enum.number" min="0" max="" default="0" isneed="0"/>
+    </cond>
+
+    <cond id="testtargetnum" title="条件：指定类型的目标数量" desc="条件：指定类型的目标数量（含），可能依赖缓存的扫描指令" format="targettype" nodetype="1" code="107" public="3">
+        <link title="与上一个条件的关联关系" desc="与上一个条件的关联关系" type="enum.condlink" default="0" isneed="0"/>
+        <targettype title="目标类型" desc="目标类型方式" type="enum.targettype" default="0" isneed="1"/>
+        <istargetself title="是否允许目标是自己" desc="是否允许目标是自己" type="enum.bool" default="0" isneed="0"/>
+        <minnum title="数量区间最小值（含）" desc="数量区间最小值" type="enum.number" min="0" max="" default="0" isneed="0"/>
+        <maxnum title="数量区间最大值（含）" desc="数量区间最大值" type="enum.number" min="0" max="" default="0" isneed="0"/>
+    </cond>
+
+    <cond id="testrandom" title="条件：随机结果" desc="条件：从范围[0, 1000)获取随机值，判断随机值是否小于随机概率参数" format="" nodetype="1" code="108" public="3">
+        <link title="与上一个条件的关联关系" desc="与上一个条件的关联关系" type="enum.condlink" default="0" isneed="0"/>
+        <rand title="随机概率/1000" desc="得到true的概率" type="enum.number" min="0" max="1000" default="1000" isneed="0"/>
+    </cond>
+
+    <cond id="hassavepos" title="条件：是否有保存的位置点" desc="条件：检查是否有保存的坐标点" format="postype" nodetype="1" code="109" public="3">
+        <link title="与上一个条件的关联关系" desc="与上一个条件的关联关系" type="enum.condlink" default="0" isneed="0"/>
+    </cond>
+
+    <cond id="hassavetarget" title="条件：是否有保存的目标" desc="条件：检查是否有保存的的目标" format="targettype" nodetype="1" code="110" public="3">
+        <link title="与上一个条件的关联关系" desc="与上一个条件的关联关系" type="enum.condlink" default="0" isneed="0"/>
+    </cond>
+
+    <cond id="hasimpacttype" title="条件：是否拥有impact类型" desc="条件：检查角色自身是否拥有某个impact类型，并在当前出于激活状态。" format="impactid" nodetype="1" code="111" public="3">
+      <link title="与上一个条件的关联关系" desc="与上一个条件的关联关系" type="enum.condlink" default="0" isneed="0"/>
+      <impactid title="效果类型" desc="效果类型" type="enum.impacttype" default="0" isneed="1"/>
+    </cond>
+  </Conds>
+  <Actions>
+    <!--控制相关action-->
+    <limit desc="约束" mincls="2" maxcls="-1"/>
+
+    <action id="select" title="指令-控制：选择分支" desc="指令-控制：用于表示if/elif/else的逻辑结构，其子节点只能迁入if节点。" format="" nodetype="2" code="201" public="3"/>
+
+    <action id="if" title="指令-控制：if条件" desc="指令-控制：用于执行if条件判断" format="" nodetype="2" code="202" public="3">
+      <condtype0 title="条件类型0" desc="条件类型" type="enum.condtype" min="" max="" default="0" isneed="0"/>
+      <condlink0 title="关联关系" desc="关联关系" type="enum.condlink" default="0" isneed="1"/>
+      <condvalue0_0 title="条件值" desc="条件值" type="enum.number" min="" max="" default="-1" isneed="0"/>
+      <condvalue0_1 title="条件值" desc="条件值" type="enum.number" min="" max="" default="-1" isneed="0"/>
+      <condvalue0_2 title="条件值" desc="条件值" type="enum.number" min="" max="" default="-1" isneed="0"/>
+      <condvalue0_3 title="条件值" desc="条件值" type="enum.number" min="" max="" default="-1" isneed="0"/>
+      <condvalue0_4 title="条件值" desc="条件值" type="enum.number" min="" max="" default="-1" isneed="0"/>
+      <condtype1 title="条件类型1" desc="条件类型" type="enum.condtype" min="" max="" default="0" isneed="0"/>
+      <condlink1 title="关联关系" desc="关联关系" type="enum.condlink" default="0" isneed="1"/>
+      <condvalue1_0 title="条件值" desc="条件值" type="enum.number" min="" max="" default="-1" isneed="0"/>
+      <condvalue1_1 title="条件值" desc="条件值" type="enum.number" min="" max="" default="-1" isneed="0"/>
+      <condvalue1_2 title="条件值" desc="条件值" type="enum.number" min="" max="" default="-1" isneed="0"/>
+      <condvalue1_3 title="条件值" desc="条件值" type="enum.number" min="" max="" default="-1" isneed="0"/>
+      <condvalue1_4 title="条件值" desc="条件值" type="enum.number" min="" max="" default="-1" isneed="0"/>
+      <condtype2 title="条件类型2" desc="条件类型" type="enum.condtype" min="" max="" default="0" isneed="0"/>
+      <condlink2 title="关联关系" desc="关联关系" type="enum.condlink" default="0" isneed="1"/>
+      <condvalue2_0 title="条件值" desc="条件值" type="enum.number" min="" max="" default="-1" isneed="0"/>
+      <condvalue2_1 title="条件值" desc="条件值" type="enum.number" min="" max="" default="-1" isneed="0"/>
+      <condvalue2_2 title="条件值" desc="条件值" type="enum.number" min="" max="" default="-1" isneed="0"/>
+      <condvalue2_3 title="条件值" desc="条件值" type="enum.number" min="" max="" default="-1" isneed="0"/>
+      <condvalue2_4 title="条件值" desc="条件值" type="enum.number" min="" max="" default="-1" isneed="0"/>
+    </action>
+
+    <action id="loop" title="指令-控制：loop循环" desc="指令-控制：用于表示loop循环，每次循环前都重置其子节点。" format="count" nodetype="2" code="203" public="3">
+      <count title="循环次数" desc="循环次数" type="enum.number" min="" max="10" default="1" isneed="1"/>
+    </action>
+    
+    <action id="wait" title="指令-控制：等待时间" desc="指令-控制：等待一段时间（单位毫秒），如果等待时间小于当前服务器单帧时间，使用服务器单帧时间。" format="time" nodetype="2" code="204" public="3">
+      <time title="等待时间/毫秒" desc="等待时间（单位毫秒），如果等待时间小于当前服务器单帧时间，使用服务器单帧时间" type="enum.number" min="0" max="" default="0" isneed="1"/>
+    </action>
+
+    <action id="gotosection" title="指令-控制：跳转到sectoin" desc="指令-控制：跳转到自定义sectoin，原section后续指令不再执行" format="sectionid" nodetype="2" code="205" public="2">
+      <sectionid title="section名字" desc="自定义的section名字，在section的id属性中配置。" type="enum.string" default="#" isneed="1"/>
+    </action>
+
+    <action id="finishskill" title="指令-控制：结束当前技能" desc="指令-控制：结束当前技能，将自动触发section:onfinish，特别注意：只是结束xml内的技能指令，外部技能Logic仍旧执行。" format="" nodetype="2" code="206" public="3">
+    </action>
+
+    <action id="breakskill" title="指令-控制：中断当前技能" desc="指令-控制：结束当前技能，将自动触发section:onbreak，特别注意：只是结束xml内的技能指令，外部技能Logic仍旧执行。" format="" nodetype="2" code="207" public="3">
+    </action>
+
+    <action id="sendevent" title="指令-控制：发送事件" desc="指令-控制：发送内部事件，触发自定义回调（异步同步执行，不影响section执行）" format="eventid" nodetype="2" code="208" public="2">
+      <eventid title="事件id" desc="事件id，在on的id属性中配置" type="enum.string" default="#" isneed="1"/>
+    </action>
+
+    <action id="jump" title="指令-控制：条件跳转" desc="指令-控制：条件跳转，默认true时执行跳转" format="addr" nodetype="2" code="209" public="0">
+      <cond title="跳转条件" desc="跳转条件" type="enum.jumpcond" min="" max="" default="-1" isneed="1"/>
+      <addr title="指令地址" desc="指令地址" type="enum.number" min="0" max="" default="0" isneed="1"/>
+    </action>
+
+    <action id="end" title="指令-控制：结束" desc="指令-控制：结束" format="" nodetype="2" code="210" public="0">
+    </action>
+
+    <action id="waitfinish" title="指令-控制：等待上一条指令完成" desc="指令-控制：等待上一条指令完成，只有" format="" nodetype="2" code="211" public="3">
+    </action>
+
+    <action id="opstate" title="指令-控制：操作状态值" desc="指令-控制：操作状态值" format="" nodetype="2" code="212" public="0">
+      <state title="操作状态类型" desc="操作状态类型" type="enum.opstatetype" min="" max="" default="0" isneed="1"/>
+    </action>
+
+    <!--表现相关action-->
+    <action id="playanim" title="指令-表现：播放动画" desc="指令-表现：播放动画，将发送消息给客户端，对于可在客户端预播放的动画，请配置在SkillEx.txt中。" format="animid" nodetype="3" code="301" public="3">
+      <animid title="动画id" desc="动画id，关联到Animation.txt表" type="enum.number" min="-1" max="" default="-1" isneed="1"/>
+      <isautodel title="是否技能结束时删除" desc="技能结束时删除，即下发动画停止的消息给客户端。" type="enum.bool" default="0" isneed="0"/>
+    </action>
+
+    <action id="stopanim" title="指令-表现：停止动画" desc="指令-表现：停止动画，发送消息给客户端。" format="animid" nodetype="3" code="302" public="3">
+      <animid title="动画id" desc="动画id，关联到Animation.txt表" type="enum.number" min="-1" max="" default="-1" isneed="1"/>
+    </action>
+
+    <action id="playeffect" title="指令-表现：播放特效" desc="指令-表现：播放特效，发送消息给客户端，对于可在客户端预播放的动画，请配置在SkillEx.txt中" format="effectid" nodetype="3" code="303" public="3">
+      <effectid title="特效id" desc="特效id，关联到Effect.txt表" type="enum.number" min="-1" max="" default="-1" isneed="1"/>
+      <issceneeffect title="是否场景特效" desc="是否全屏或场景特效" type="enum.bool" default="0" isneed="0"/>
+      <isautodel title="是否技能结束时停止" desc="技能结束时是否删除，即下发删除特效的消息给客户端。" type="enum.bool" default="0" isneed="0"/>
+    </action>
+   
+    <action id="playchaineffect" title="指令-表现：播放链式特效" desc="指令-表现：播放链式特效，发送消息给客户端" format="effectid:targettype" nodetype="3" code="304" public="3">
+      <effectid title="特效id" desc="特效id，关联到Effect.txt" type="enum.number" min="-1" max="" default="-1" isneed="1"/>
+      <targettype title="目标类型" desc="目标类型方式" type="enum.targettype" default="0" isneed="1"/>
+      <istargetself title="是否允许目标是自己" desc="是否允许目标是自己" type="enum.bool" default="0" isneed="0"/>
+      <isautodel title="是否技能结束时删除" desc="技能结束时是否删除，即下发删除特效的消息给客户端。" type="enum.bool" default="0" isneed="0"/>
+      <isupdate title="是否更新现有effect" desc="更新现有effect，或者增加新effect" type="enum.bool" default="0" isneed="0"/>
+      <updatetype title="目标位置来源" desc="目标位置来源" type="enum.updatechaineffecttype" default="0" isneed="1"/>
+      <posx title="位置x" desc="用于输入位置x(单位厘米)" type="enum.number" min="" max="" default="0" isneed="0"/>
+      <posz title="位置z" desc="用于输入位置z(单位厘米)" type="enum.number" min="" max="" default="0" isneed="0"/>
+    </action>
+  
+    <action id="setrangeeffect" title="指令-表现：修改范围特效信息" desc="指令-表现：修改范围特效信息，发送消息给客户端" format="effecttype:settype" nodetype="3" code="305" public="3">
+      <effecttype title="特效类型" desc="特效形状" type="enum.effecttype" default="0" isneed="1"/>
+      <scaletype title="填充类型" desc="填充类型" type="enum.scalerangeeffecttype" default="0" isneed="0"/>
+      <scale title="填充比率" desc="填充比率，100代表100%，即不缩放" type="enum.number" min="100" max="" default="0" isneed="0"/>
+    </action>
+  
+    <action id="stopeffect" title="指令-表现：停止特效" desc="指令-表现：停止特效，发送消息给客户端" format="effectid" nodetype="3" code="306" public="3">
+      <effectid title="特效id" desc="特效id，关联Effect.txt表" type="enum.number" min="-1" max="" default="-1" isneed="1"/>
+      <issceneeffect title="是否场景特效" desc="是否全屏或场景特效" type="enum.bool" default="0" isneed="0"/>
+    </action>
+  
+    <action id="playsound" title="指令-表现：播放声音" desc="指令-表现：播放声音，发送消息给客户端" format="soundid" nodetype="3" code="307" public="3">
+      <soundid title="声音id" desc="声音id，关联Sound.txt表" type="enum.number" min="-1" max="" default="-1" isneed="1"/>
+      <soundtype title="声音类型" desc="声音类型" type="enum.soundtype" default="1" isneed="0"/>
+    </action>
+  
+    <action id="shakecamera" title="指令-表现：震屏" desc="指令-表现：震屏，发送消息给客户端" format="cameraid" nodetype="3" code="308" public="3">
+      <cameraid title="震屏id" desc="震屏id，关联CameraRock.txt" type="enum.number" min="-1" max="" default="-1" isneed="1"/>
+      <isbroadcast title="是否广播" desc="是否广播 true-广播给视野内所有玩家/false-只发给自己" type="enum.bool" default="0" isneed="0"/>
+    </action>
+  
+    <action id="sendnotice" title="指令-表现：发送提示" desc="指令-表现：发送提示，发送消息给客户端" format="noticeid" nodetype="3" code="309" public="3">
+      <noticeid title="提示文本id" desc="提示文本id，关联Notice.txt" type="enum.number" min="-1" max="" default="-1" isneed="1"/>
+      <isfilterrepeat title="是否过滤重复" desc="是否过滤重复" type="enum.bool" default="0" isneed="0"/>
+    </action>
+
+    <action id="lockframe" title="指令-表现：锁帧动画和特效" desc="指令-表现：按一定速率，锁帧一段时间，对动画和特效同时生效，只有客户端主角生效,服务器忽略此指令" format="duration:speed" nodetype="3" code="310" public="3">
+      <duration title="持续时间(毫秒)" desc="持续时间(毫秒)，默认持续90ms" type="enum.number" min="0" max="" default="90" isneed="1"/>
+      <speed title="锁帧速率*100" desc="锁帧速率*100, 默认0.03倍" type="enum.number" min="0" max="" default="3" isneed="1"/>
+      <cameralock title="附带震屏效果id" desc="震屏效果id，关联到CameraLock.txt，默认41" type="enum.number" min="0" max="" default="41" isneed="1"/>
+    </action>
+
+    <action id="playrangeeffect" title="指令-表现：播放范围特效信息" desc="指令-表现：播放范围特效信息，发送消息给客户端" format="effecttype:effectshowtype:effecttime" nodetype="3" code="311" public="3">
+      <effecttype title="特效类型" desc="特效形状" type="enum.effecttype" default="0" isneed="1"/>
+      <effectshowtype title="辅助特效的展示类型" desc="动态技能辅助特效的展示类型(-1无 1铺满 2闪烁 3铺满-矩形单方向延长)" type="enum.effectshowtype" min="" max="" default="-1" isneed="0"/>
+      <effecttime title="动态表现时间" desc="动态技能指示圈的动态表现时间(毫秒)" type="enum.number" min="" max="" default="-1" isneed="0"/>
+      <effectdisapeartime title="动态表现消失时间" desc="动态技能指示圈的动态表现消失时间(毫秒)" type="enum.number" min="" max="" default="-1" isneed="0"/>
+      <effectcolor title="辅助特效的颜色" desc="动态技能辅助特效的颜色 a,r,g,b" type="enum.number" min="" max="" default="-1" isneed="0"/>
+      <effectparam1 title="动态参数1" desc="动态技能指示圈圆形范围的半径 矩形范围的长 箭头的长 扇形的半径 环形的外圆半径" type="enum.number" min="" max="" default="-1" isneed="0"/>
+      <effectparam2 title="动态参数2" desc="动态技能指示圈矩形范围的宽 环形的内圆半径 扇形的角度 箭头的宽" type="enum.number" min="" max="" default="-1" isneed="0"/>
+    </action>
+
+    <action id="stoprangeeffect" title="指令-表现：停止范围特效信息" desc="指令-表现：停止范围特效信息，发送消息给客户端" format="effecttype" nodetype="3" code="312" public="3">
+      <effecttype title="特效类型" desc="特效形状" type="enum.effecttype" default="0" isneed="1"/>
+    </action>
+
+    <action id="startbulletfrozen" title="指令-表现：开始子弹时间" desc="指令-表现：开始子弹时间" format="duration:rate" nodetype="3" code="313" public="3">
+      <duration title="持续时间(毫秒)" desc="持续时间(毫秒),-1表示无限时长" type="enum.number" min="-1" max="" default="-1" isneed="1"/>
+      <rate title="速率百分比" desc="特效形状" type="enum.number" min="0" max="1000" default="100" isneed="1"/>
+    </action>
+
+    <action id="stopbulletfrozen" title="指令-表现：停止子弹时间" desc="指令-表现：停止子弹时间" format="" nodetype="3" code="314" public="3">
+    </action>
+
+    <!--位置/朝向相关action-->
+    <action id="movetopos" title="指令-移动：移动到位置" desc="指令-移动：一段时间内，移动到指定位置，位置数据来自目标角色或角色自身的相对位置" format="duration:postype" nodetype="4" code="401" public="3">
+      <duration title="持续时间(毫秒)" desc="持续时间(毫秒)，持续时间和移动速度只能二选一" type="enum.number" min="0" max="" default="0" isneed="0"/>
+      <speed title="移动速度(厘米/秒)" desc="移动速度(厘米/秒)，持续时间和移动速度只能二选一" type="enum.number" min="0" max="" default="0" isneed="0"/>
+      <postype title="位置类型" desc="位置类型" type="enum.postype" default="0" isneed="1"/>
+      <angle title="后角度偏移" desc="后角度偏移，在已获得目标位置后，真实移动前的偏移角度" type="enum.number" min="0" max="360" default="0" isneed="0"/>
+      <stoprange title="停止距离(厘米)" desc="距离目标点的停止距离(厘米)" type="enum.number" min="" max="" default="0" isneed="0"/>
+      <animid title="动画id" desc="动画id，关联Animation.txt" type="enum.number" min="-1" max="" default="-1" isneed="1"/>
+      <isfaceto title="是否朝向移动方向" desc="是否朝向移动方向，确保移动时角色朝向和移动方向一致" type="enum.bool" default="1" isneed="0"/>
+      <isnotifyplayer title="是否通知客户端玩家" desc="是否通知客户端玩家" type="enum.bool" default="1" isneed="0"/>
+      <obstacledis title="远离阻挡的距离(厘米)" desc="远离阻挡的距离(厘米)" type="enum.number" min="0" max="" default="0" isneed="0"/>
+      <maxdis title="最大移动距离(厘米)" desc="限制的最大移动距离(厘米)，-1代表无限制" type="enum.number" min="-1" max="" default="-1" isneed="0"/>
+    </action>
+
+    <action id="telemoveto" title="指令-移动：移动固定距离" desc="指令-移动：一段时间内，移动固定距离" format="duration:distance" nodetype="4" code="402" public="3">
+      <duration title="持续时间(毫秒)" desc="持续时间(毫秒)" type="enum.number" min="0" max="" default="0" isneed="1"/>
+      <distance title="移动距离(厘米)" desc="移动距离(厘米)" type="enum.number" min="0" max="" default="0" isneed="1"/>
+      <angle title="偏移角度" desc="偏移角度" type="enum.number" min="0" max="" default="0" isneed="0"/>
+      <stoprange title="停止距离(厘米)" desc="距离目标点的停止距离(厘米)" type="enum.number" min="" max="" default="0" isneed="0"/>
+      <animid title="动画id" desc="动画id，关联Animation.txt" type="enum.number" min="-1" max="" default="-1" isneed="1"/>
+      <isfaceto title="是否朝向移动方向" desc="是否朝向移动方向，确保移动时角色朝向和移动方向一致" type="enum.bool" default="1" isneed="0"/>
+      <isnotifyplayer title="是否通知客户端玩家" desc="是否通知客户端玩家" type="enum.bool" default="1" isneed="0"/>
+      <obstacledis title="远离阻挡的距离(厘米)" desc="远离阻挡的距离(厘米)" type="enum.number" min="0" max="" default="0" isneed="0"/>
+    </action>
+
+    <action id="stopmove" title="指令-移动：停止移动" desc="指令-移动：停止移动" format="isnotifyplayer" nodetype="4" code="403" public="3">
+      <isnotifyplayer title="是否通知客户端玩家" desc="是否通知客户端玩家" type="enum.bool" default="1" isneed="0"/>
+      <isnotifyevent title="是否触发事件" desc="是否触发事件" type="enum.bool" default="1" isneed="0"/>
+    </action>
+
+    <action id="setposto" title="指令-移动：强制设置到位置" desc="指令-移动：强制设置到位置" format="postype:isstraight" nodetype="4" code="404" public="3">
+      <postype title="位置类型" desc="位置类型" type="enum.postype" default="0" isneed="1"/>
+      <isclientmove title="是否客户端移动" desc="是否客户端移动过去，而不是瞬移" type="enum.bool" default="0" isneed="0"/>
+      <isstraight title="是否要求直达" desc="是否要求从当前位置可直达目标点，否则不执行" type="enum.bool" default="0" isneed="0"/>
+      <isstraightpos title="是否最远目标点" desc="无法直达时，是否使用可直达的最远目标点" type="enum.bool" default="1" isneed="0"/>
+    </action>
+
+    <action id="setfaceto" title="指令-移动：改变朝向" desc="指令-移动：改变朝向，方向数据来自固定值或目标对象" format="targettype:postype:rotspeed:isfacemodel" nodetype="4" code="405" public="3">
+      <targettype title="目标类型" desc="以目标类型方式方式选择目标点" type="enum.savetargettype" default="0" isneed="1"/>
+      <postype title="位置类型" desc="以位置类型方式选择目标点" type="enum.postype" default="0" isneed="1"/>
+      <rotspeed title="转向角速度" desc="转向角速度，一旦配置代表转向有过程，-1表示使用属性表中旋转角速度，0表示瞬切，其他值表示旋转角速度" type="enum.number" min="-1" max="" default="0" isneed="0"/>
+      <isfacemodel title="是否客户端朝向模型" desc="是否客户端朝向模型，使得客户端更准确，但也可能导致不一致，只用于技能内" type="enum.bool" default="0" isneed="0"/>
+    </action>
+
+    <action id="savepos" title="指令-移动：保存位置" desc="指令-移动：保存位置数据，供后续指令使用" format="targettype:targetname:postype" nodetype="4" code="406" public="3">
+      <targettype title="目标类型" desc="目标类型方式" type="enum.savetargettype" default="0" isneed="1"/>
+      <targetname title="目标名字" desc="目标名字，通过@name方式索引" type="enum.string" default="#" isneed="1"/>
+      <istargetself title="是否允许目标是自己" desc="是否允许目标是自己" type="enum.bool" default="0" isneed="0"/>
+      <targetdisoff title="目标偏移距离(厘米)" desc="目标距离偏移(厘米)，在与目标的连线上计算的偏移距离。" type="enum.number" min="0" max="" default="0" isneed="0"/>
+      <postype title="位置类型" desc="位置类型" type="enum.savepostype" default="0" isneed="1"/>
+      <posdisoff title="位置偏移距离(厘米)" desc="位置距离偏移(厘米)，如果找到目标，在与目标连线上计算距离，否则是自身朝向" type="enum.number" min="0" max="" default="0" isneed="0"/>
+      <posangleoff title="角度偏移" desc="角度偏移，在当前朝向上计算的偏移角度。" type="enum.number" min="0" max="" default="0" isneed="0"/>
+      <posxoff title="场景位置x或偏移(厘米)" desc="位置x或偏移(厘米)" type="enum.number" min="0" max="" default="0" isneed="0"/>
+      <poszoff title="场景位置z或偏移(厘米)" desc="位置z或偏移(厘米)" type="enum.number" min="0" max="" default="0" isneed="0"/>
+      <isnotifyclient title="是否通知客户端" desc="是否通知客户端" type="enum.bool" default="0" isneed="0"/>
+      <issave title="是否保存坐标结果" desc="是否保存坐标，供后续所有指令使用" type="enum.bool" default="1" isneed="0"/>
+      <isfaceto title="是否朝向移动方向" desc="是否朝向目标位置" type="enum.bool" default="0" isneed="0"/>
+      <maxrandrange title="随机范围(厘米)" desc="以已选位置为中心，此范围为半径的圆上随机位置，未随机到使用原坐标点" type="enum.number" default="0" isneed="0"/>
+    </action>
+
+    <action id="savetarget" title="指令-移动：保存目标" desc="指令-移动：保存目标，供后续指令使用" format="targettype:targetname:postype" nodetype="4" code="407" public="3">
+      <targettype title="目标类型" desc="目标类型方式" type="enum.savetargettype" default="0" isneed="1"/>
+      <targetname title="目标名字" desc="目标名字，通过@name方式索引" type="enum.string" default="#" isneed="1"/>
+      <istargetself title="是否允许目标是自己" desc="是否允许目标是自己" type="enum.bool" default="0" isneed="0"/>
+      <isnotifyclient title="是否通知客户端" desc="是否通知客户端" type="enum.bool" default="0" isneed="0"/>
+      <issave title="是否保存坐标结果" desc="是否保存坐标，供后续所有指令使用" type="enum.bool" default="1" isneed="0"/>
+      <isfaceto title="是否朝向移动方向" desc="是否朝向目标" type="enum.bool" default="0" isneed="0"/>
+    </action>
+
+    <action id="jumphigh" title="指令-移动：往高处跳跃(未实现)" desc="指令-移动：跳跃一定高度，只有y方向高度变化，没有xz平面位移" format="duration" nodetype="4" code="408" public="3">
+      <height title="跳跃高度(厘米)" desc="跳跃(厘米)" type="enum.number" min="0" max="" default="0" isneed="0"/>
+      <riseduration title="上升持续时间" desc="上升持续时间" type="enum.number" min="0" max="" default="0" isneed="0"/>
+      <riseanimid title="上升动画id" desc="上升动画id，关联到Animation.txt表" type="enum.number" min="-1" max="" default="-1" isneed="1"/>
+      <holdduration title="上升持续时间" desc="上升持续时间" type="enum.number" min="0" max="" default="0" isneed="0"/>
+      <holdanimid title="滞空动画id" desc="滞空动画id，关联到Animation.txt表" type="enum.number" min="-1" max="" default="-1" isneed="1"/>
+      <fallduration title="下落持续时间" desc="下落持续时间" type="enum.number" min="0" max="" default="0" isneed="0"/>
+      <fallanimid title="下落动画id" desc="下落动画id，关联到Animation.txt表" type="enum.number" min="-1" max="" default="-1" isneed="1"/>
+      <endduration title="结束持续时间" desc="结束持续时间" type="enum.number" min="0" max="" default="0" isneed="0"/>
+      <endanimid title="结束动画id" desc="结束动画id，关联到Animation.txt表" type="enum.number" min="-1" max="" default="-1" isneed="1"/>
+    </action>
+
+    <action id="clearsavepos" title="指令-移动：清除保存的位置" desc="指令-移动：清除保存的位置" format="" nodetype="4" code="409" public="3">
+    </action>
+
+    <action id="clearsavetarget" title="指令-移动：清除保存的目标" desc="指令-移动：清除保存的目标" format="" nodetype="4" code="410" public="3">
+    </action>
+
+    <action id="startfacingtarget" title="指令-移动：开始朝向目标" desc="指令-移动：开始朝向目标，保持一段时间" format="targettype:duration:isfacemodel" nodetype="4" code="411" public="3">
+      <targettype title="目标类型" desc="以目标类型方式方式选择目标点，允许目标位置动态变化" type="enum.savetargettype" default="0" isneed="1"/>
+      <duration title="持续时间(毫秒)" desc="持续时间(毫秒)，" type="enum.number" min="0" max="" default="0" isneed="1"/>
+      <isfacemodel title="是否客户端朝向模型" desc="是否客户端朝向模型，使得客户端更准确，但也可能导致不一致，只用于技能内" type="enum.bool" default="0" isneed="0"/>
+      <isautodel title="是否技能结束时停止" desc="技能结束时是否停止" type="enum.bool" default="0" isneed="0"/>
+    </action>
+
+    <action id="stopfacingtarget" title="指令-移动：停止朝向目标" desc="指令-移动：停止始终朝向目标，所有设置朝向指令也可停止" format="" nodetype="4" code="412" public="3">
+    </action>
+
+    <!--目标扫描相关action-->
+    <action id="scancircle" title="指令-扫描：根据圆形扫描" desc="指令-扫描：根据圆形扫描" format="objtype:radius" nodetype="5" code="501" public="3">
+      <objtype title="目标类型" desc="扫描目标类型" type="enum.scanobjtype" default="0" isneed="1"/>
+      <maxnum title="最大目标数量" desc="最大目标数量" type="enum.number" min="-1" max="" default="-1" isneed="0"/>
+      <isenabledie title="是否搜索死亡目标" desc="是否使用死亡目标，后续使用clearscan清除" type="enum.bool" default="0" isneed="0"/>
+      <issave title="是否保存结果" desc="是否保存扫描结果，后续使用clearscan清除" type="enum.bool" default="1" isneed="0"/>
+      <issteath title="是否搜索隐藏目标" desc="是否搜索隐藏目标" type="enum.bool" default="1" isneed="0"/>
+      <radius title="扫描半径(厘米)" desc="扫描半径(厘米)" type="enum.number" min="0" max="" default="0" isneed="1"/>
+    </action>
+
+    <action id="scansector" title="指令-扫描：根据扇形扫描" desc="指令-扫描：根据扇形扫描" format="objtype:radius:angle" nodetype="5" code="502" public="3">
+      <objtype title="目标类型" desc="扫描目标类型" type="enum.scanobjtype" default="0" isneed="1"/>
+      <maxnum title="最大目标数量" desc="最大目标数量" type="enum.number" min="-1" max="" default="-1" isneed="0"/>
+      <isenabledie title="是否搜索死亡目标" desc="是否使用死亡目标，后续使用clearscan清除" type="enum.bool" default="0" isneed="0"/>
+      <issave title="是否保存结果" desc="是否保存扫描结果，后续使用clearscan清除" type="enum.bool" default="1" isneed="0"/>
+      <issteath title="是否搜索隐藏目标" desc="是否搜索隐藏目标" type="enum.bool" default="1" isneed="0"/>
+      <radius title="扫描半径(厘米)" desc="扫描半径(厘米)" type="enum.number" min="0" max="" default="0" isneed="1"/>
+      <angle title="扫描角度" desc="扫描角度" type="enum.number" min="0" max="360" default="0" isneed="1"/>
+      <isback title="是否方向扫描" desc="是否方向扫描" type="enum.bool" default="1" isneed="0"/>
+      <dir title="角度偏移" desc="相对于当前朝向，增加角度偏移" type="enum.number" default="0" isneed="0"/>
+    </action>
+
+    <action id="scanray" title="指令-扫描：根据射线扫描" desc="指令-扫描：根据射线扫描" format="objtype:length:width" nodetype="5" code="503" public="3">
+      <objtype title="目标类型" desc="扫描目标类型" type="enum.scanobjtype" default="0" isneed="1"/>
+      <maxnum title="最大目标数量" desc="最大目标数量" type="enum.number" min="-1" max="" default="-1" isneed="0"/>
+      <isenabledie title="是否搜索死亡目标" desc="是否使用死亡目标，后续使用clearscan清除" type="enum.bool" default="0" isneed="0"/>
+      <issave title="是否保存结果" desc="是否保存扫描结果，后续使用clearscan清除" type="enum.bool" default="1" isneed="0"/>
+      <issteath title="是否搜索隐藏目标" desc="是否搜索隐藏目标" type="enum.bool" default="1" isneed="0"/>
+      <length title="扫描长度(厘米)" desc="扫描长度(厘米)" type="enum.number" min="0" max="" default="0" isneed="1"/>
+      <width title="扫描宽度(厘米)" desc="扫描宽度(厘米)" type="enum.number" min="0" max="" default="0" isneed="1"/>
+      <dir title="角度偏移" desc="相对于当前朝向，增加角度偏移" type="enum.number" default="0" isneed="0"/>
+    </action>
+
+    <action id="scanring" title="指令-扫描：根据环形扫描" desc="指令-扫描：根据环形扫描" format="objtype:inradius:outradius" nodetype="5" code="504" public="3">
+      <objtype title="目标类型" desc="扫描目标类型" type="enum.scanobjtype" default="0" isneed="1"/>
+      <maxnum title="最大目标数量" desc="最大目标数量" type="enum.number" min="-1" max="" default="-1" isneed="0"/>
+      <isenabledie title="是否搜索死亡目标" desc="是否使用死亡目标，后续使用clearscan清除" type="enum.bool" default="0" isneed="0"/>
+      <issave title="是否保存结果" desc="是否保存扫描结果，后续使用clearscan清除" type="enum.bool" default="1" isneed="0"/>
+      <issteath title="是否搜索隐藏目标" desc="是否搜索隐藏目标" type="enum.bool" default="1" isneed="0"/>
+      <inradius title="内圆半径(厘米)" desc="内圆半径(厘米)" type="enum.number" min="0" max="" default="0" isneed="1"/>
+      <outradius title="外圆半径(厘米)" desc="外圆半径(厘米)" type="enum.number" min="0" max="" default="0" isneed="1"/>
+    </action>
+        
+    <action id="scanteam" title="指令-扫描：根据队伍扫描" desc="指令-扫描：根据队伍扫描" format="objtype:radius" nodetype="5" code="505" public="3">
+      <objtype title="目标类型" desc="扫描目标类型" type="enum.scanobjtype" default="0" isneed="1"/>
+      <maxnum title="最大目标数量" desc="最大目标数量" type="enum.number" min="-1" max="" default="-1" isneed="0"/>
+      <isenabledie title="是否搜索死亡目标" desc="是否使用死亡目标，后续使用clearscan清除" type="enum.bool" default="0" isneed="0"/>
+      <issave title="是否保存结果" desc="是否保存扫描结果，后续使用clearscan清除" type="enum.bool" default="1" isneed="0"/>
+      <issteath title="是否搜索隐藏目标" desc="是否搜索隐藏目标" type="enum.bool" default="1" isneed="0"/>
+      <radius title="扫描半径(厘米)" desc="扫描半径(厘米)" type="enum.number" min="0" max="" default="0" isneed="1"/>
+      <islock title="是否锁定目标" desc="是否锁定目标" type="enum.bool" default="1" isneed="0"/>
+    </action>
+
+    <action id="scanenemy" title="指令-扫描：根据敌方扫描" desc="指令-扫描：根据敌方扫描" format="objtype:radius" nodetype="5" code="506" public="3">
+      <objtype title="目标类型" desc="扫描目标类型" type="enum.scanobjtype" default="0" isneed="1"/>
+      <maxnum title="最大目标数量" desc="最大目标数量" type="enum.number" min="-1" max="" default="-1" isneed="0"/>
+      <isenabledie title="是否搜索死亡目标" desc="是否使用死亡目标，后续使用clearscan清除" type="enum.bool" default="0" isneed="0"/>
+      <issave title="是否保存结果" desc="是否保存扫描结果，后续使用clearscan清除" type="enum.bool" default="1" isneed="0"/>
+      <issteath title="是否搜索隐藏目标" desc="是否搜索隐藏目标" type="enum.bool" default="1" isneed="0"/>
+      <radius title="扫描半径(厘米)" desc="扫描半径(厘米)" type="enum.number" min="0" max="" default="0" isneed="1"/>
+    </action>
+
+    <action id="clearscan" title="指令-扫描：清除扫描结果" desc="指令-扫描：清除扫描结果" format="" nodetype="5" code="507" public="3">
+    </action>
+
+    <!--角色相关action-->
+    <action id="selectobj" title="指令-角色：选择当前目标" desc="指令-角色：选择当前目标" format="targettype" nodetype="6" code="601" public="2">
+      <targettype title="目标类型" desc="目标类型方式" type="enum.targettype" default="0" isneed="1"/>
+      <istargetself title="是否允许目标是自己" desc="是否允许目标是自己" type="enum.bool" default="0" isneed="0"/>
+    </action>
+
+    <action id="createnpc" title="指令-角色：创建npc" desc="指令-角色：创建npc" format="npctype:npcid:postype" nodetype="6" code="602" public="2">
+      <npctype title="Npc类型" desc="Npc 类型" type="enum.npctype" default="0" isneed="1"/>
+      <npcid title="NpcId" desc="Npc配置id，关联到NpcAttr.txt" type="enum.number" min="-1" max="" default="-1" isneed="1"/>
+      <postype title="位置类型" desc="位置类型" type="enum.postype" default="0" isneed="1"/>
+      <objname title="保存对象名字" desc="保存对象名字" type="enum.number" default="-1" isneed="0"/>
+      <isautodel title="是否技能结束时删除" desc="技能结束时是否删除" type="enum.bool" default="0" isneed="0"/>
+    </action>
+
+    <action id="destroynpc" title="指令-角色：删除npc" desc="指令-角色：删除npc" format="objname" nodetype="6" code="603" public="2">
+      <objname title="对象名字" desc="对象名字，通过@name方式索引" type="enum.string" default="#" isneed="1"/>
+    </action>
+
+    <!--效果Impact相关action-->
+    <action id="addimpact" title="指令-效果：添加impact" desc="指令-效果：添加impact，Impact.txt中配置的锁帧和击打音效在发送者为主角时，在客户端预执行" format="impactid:rate:targettype" nodetype="7" code="701" public="2">
+      <impactid title="效果id" desc="效果id，关联到Impact.txt" type="enum.number" min="-1" max="" default="-1" isneed="1"/>
+      <rate title="概率(0-1000)" desc="概率(0-1000)" type="enum.number" min="0" max="1000" default="1000" isneed="0"/>
+      <targettype title="目标类型" desc="目标类型方式" type="enum.targettype" default="0" isneed="1"/>
+      <istargetself title="是否允许目标是自己" desc="是否允许目标是自己" type="enum.bool" default="0" isneed="0"/>
+      <maxnum title="最大目标数量" desc="最大目标数量" type="enum.number" min="-1" max="" default="-1" isneed="0"/>
+      <isautodel title="是否技能结束时删除" desc="技能结束时是否删除" type="enum.bool" default="0" isneed="0"/>
+    </action>
+
+    <action id="removeimpact" title="指令-效果：删除impact" desc="指令-效果：删除impact" format="impactid:rate:scantype" nodetype="7" code="702" public="2">
+      <impactid title="效果id" desc="效果id，关联到Impact.txt" type="enum.number" min="-1" max="" default="-1" isneed="1"/>
+      <rate title="概率(0-1000)" desc="概率(0-1000)" type="enum.number" min="0" max="1000" default="1000" isneed="0"/>
+      <scantype title="查找impact方式" desc="查找impact方式" type="enum.scanimpacttype" default="0" isneed="0"/>
+      <maxnum title="最大数量" desc="最大数量" type="enum.number" min="-1" max="" default="-1" isneed="0"/>
+    </action>
+
+    <action id="updateimpact" title="指令-效果：更新impact" desc="指令-效果：更新impact" format="impactid:rate:scantype" nodetype="7" code="703" public="2">
+      <impactid title="效果id" desc="效果id，关联到Impact.txt" type="enum.number" min="-1" max="" default="-1" isneed="1"/>
+      <rate title="概率(0-1000)" desc="概率(0-1000)" type="enum.number" min="0" max="1000" default="1000" isneed="0"/>
+      <scantype title="查找impact方式" desc="查找impact方式" type="enum.scanimpacttype" default="0" isneed="0"/>
+      <maxnum title="最大目标数量" desc="最大目标数量" type="enum.number" min="-1" max="" default="-1" isneed="0"/>
+      <updatetype title="更新方式" desc="更新方式" type="enum.updateimpacttype" default="1" isneed="1"/>
+      <updatevalue title="更新值" desc="更新值" type="enum.number" min="0" max="" default="0" isneed="1"/>
+    </action>
+
+    <!--工具相关action-->
+    <action id="comment" title="指令-控制：注释" desc="指令-控制：注释行" 
+      format="------------------------------------------------------------------------------:comment" nodetype="8" code="801" public="3">
+      <comment title="注释" desc="注释文本" type="enum.string" default="#" isneed="1"/>
+    </action>
+  </Actions>
+</Spec>

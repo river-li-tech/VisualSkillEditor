@@ -1,0 +1,190 @@
+<RCC>
+  <qresource prefix="/icons">
+    <file>Icons/Arrow Down.png</file>
+    <file>Icons/Arrow Left.png</file>
+    <file>Icons/Arrow Right.png</file>
+    <file>Icons/Arrow Up.png</file>
+    <file>Icons/Black Board 2.png</file>
+    <file>Icons/Black Board.png</file>
+    <file>Icons/Bluetooth.png</file>
+    <file>Icons/Bookmarks 2.png</file>
+    <file>Icons/Bookmarks.png</file>
+    <file>Icons/Box Add.png</file>
+    <file>Icons/Box Down.png</file>
+    <file>Icons/Box Remove.png</file>
+    <file>Icons/Box Up.png</file>
+    <file>Icons/Box.png</file>
+    <file>Icons/Briefcase.png</file>
+    <file>Icons/Bug.png</file>
+    <file>Icons/Button Add.png</file>
+    <file>Icons/Button Burn.png</file>
+    <file>Icons/Button Check.png</file>
+    <file>Icons/Button Color Circle.png</file>
+    <file>Icons/Button Eject.png</file>
+    <file>Icons/Button Help.png</file>
+    <file>Icons/Button Info.png</file>
+    <file>Icons/node_action_tool.png</file>
+    <file>Icons/Button Load.png</file>
+    <file>Icons/Button Next.png</file>
+    <file>Icons/Button Pause.png</file>
+    <file>Icons/Button Previous.png</file>
+    <file>Icons/Button Record Active.png</file>
+    <file>Icons/Button Record.png</file>
+    <file>Icons/Button Remove.png</file>
+    <file>Icons/Button Stop.png</file>
+    <file>Icons/Button White Add.png</file>
+    <file>Icons/Button White Check.png</file>
+    <file>Icons/Button White Help.png</file>
+    <file>Icons/Button White Info.png</file>
+    <file>Icons/Button White Remove.png</file>
+    <file>Icons/Button White RSS.png</file>
+    <file>Icons/Button White Stop.png</file>
+    <file>Icons/Calendar 2.png</file>
+    <file>Icons/Calendar.png</file>
+    <file>Icons/Camera.png</file>
+    <file>Icons/Chart Bar.png</file>
+    <file>Icons/Chart Pie.png</file>
+    <file>Icons/Checkbox Empty.png</file>
+    <file>Icons/Checkbox Full.png</file>
+    <file>Icons/Clock Alarm.png</file>
+    <file>Icons/Clock.png</file>
+    <file>Icons/CMD Key.png</file>
+    <file>Icons/Cocktail.png</file>
+    <file>Icons/Cog.png</file>
+    <file>Icons/Comment Add.png</file>
+    <file>Icons/Comment Edit.png</file>
+    <file>Icons/Comment Remove.png</file>
+    <file>Icons/Comment.png</file>
+    <file>Icons/Computer Off.png</file>
+    <file>Icons/Computer On.png</file>
+    <file>Icons/Contacts Add.png</file>
+    <file>Icons/Contacts Remove.png</file>
+    <file>Icons/Contacts Sync.png</file>
+    <file>Icons/Contacts.png</file>
+    <file>Icons/Credit Card PayPal.png</file>
+    <file>Icons/Credit Card.png</file>
+    <file>Icons/Dashboard.png</file>
+    <file>Icons/Database Add.png</file>
+    <file>Icons/Database Remove.png</file>
+    <file>Icons/Database.png</file>
+    <file>Icons/Desktop.png</file>
+    <file>Icons/Disc Blu Ray.png</file>
+    <file>Icons/Disc DVD.png</file>
+    <file>Icons/Document 1 Add.png</file>
+    <file>Icons/Document 1 Edit.png</file>
+    <file>Icons/Document 1 Remove.png</file>
+    <file>Icons/Document 1.png</file>
+    <file>Icons/Document 2 Add.png</file>
+    <file>Icons/Document 2 Edit.png</file>
+    <file>Icons/Document 2 Remove.png</file>
+    <file>Icons/Document 2.png</file>
+    <file>Icons/Document Blueprint.png</file>
+    <file>Icons/Document Checklist.png</file>
+    <file>Icons/Drawer Closed.png</file>
+    <file>Icons/Drawer Open.png</file>
+    <file>Icons/File About.png</file>
+    <file>Icons/File Add.png</file>
+    <file>Icons/File Break.png</file>
+    <file>Icons/File Check.png</file>
+    <file>Icons/File Close.png</file>
+    <file>Icons/File Copy.png</file>
+    <file>Icons/File Cut.png</file>
+    <file>Icons/File New.png</file>
+    <file>Icons/File Open.png</file>
+    <file>Icons/File Paste.png</file>
+    <file>Icons/File Receive.png</file>
+    <file>Icons/File Remove.png</file>
+    <file>Icons/File Save.png</file>
+    <file>Icons/File Send.png</file>
+    <file>Icons/File.png</file>
+    <file>Icons/Finder.png</file>
+    <file>Icons/Folder Add.png</file>
+    <file>Icons/Folder Remove.png</file>
+    <file>Icons/Folder Smart.png</file>
+    <file>Icons/Folder Sync.png</file>
+    <file>Icons/Folder.png</file>
+    <file>Icons/Fonts.png</file>
+    <file>Icons/Globe Active.png</file>
+    <file>Icons/Globe Inactive.png</file>
+    <file>Icons/Glyph Add.png</file>
+    <file>Icons/Glyph Check.png</file>
+    <file>Icons/Glyph Remove.png</file>
+    <file>Icons/Home.png</file>
+    <file>Icons/IM 2.png</file>
+    <file>Icons/IM.png</file>
+    <file>Icons/iPad.png</file>
+    <file>Icons/iPhone.png</file>
+    <file>Icons/Light Bulb Off.png</file>
+    <file>Icons/Light Bulb On.png</file>
+    <file>Icons/Link.png</file>
+    <file>Icons/Lock Closed.png</file>
+    <file>Icons/Lock Open.png</file>
+    <file>Icons/Love.png</file>
+    <file>Icons/Magic Wand.png</file>
+    <file>Icons/Mail Add.png</file>
+    <file>Icons/Mail Edit.png</file>
+    <file>Icons/Mail Forward.png</file>
+    <file>Icons/Mail Open 1.png</file>
+    <file>Icons/Mail Open 2.png</file>
+    <file>Icons/Mail Receive.png</file>
+    <file>Icons/Mail Remove.png</file>
+    <file>Icons/Mail Reply.png</file>
+    <file>Icons/Mail Send.png</file>
+    <file>Icons/Mail.png</file>
+    <file>Icons/Maps.png</file>
+    <file>Icons/Mobile Phone.png</file>
+    <file>Icons/Money Bundle.png</file>
+    <file>Icons/Money.png</file>
+    <file>Icons/Movies.png</file>
+    <file>Icons/Music Blue.png</file>
+    <file>Icons/Music Green.png</file>
+    <file>Icons/Music Red.png</file>
+    <file>Icons/News Add.png</file>
+    <file>Icons/News Remove.png</file>
+    <file>Icons/News.png</file>
+    <file>Icons/Note Pinned.png</file>
+    <file>Icons/Note Sticky.png</file>
+    <file>Icons/Pencil.png</file>
+    <file>Icons/Pictures.png</file>
+    <file>Icons/Printer.png</file>
+    <file>Icons/Private.png</file>
+    <file>Icons/Ruler.png</file>
+    <file>Icons/Search Add.png</file>
+    <file>Icons/Search Remove.png</file>
+    <file>Icons/Search.png</file>
+    <file>Icons/Sign Public.png</file>
+    <file>Icons/Sign Warning.png</file>
+    <file>Icons/Smiley Happy.png</file>
+    <file>Icons/Smiley Sad.png</file>
+    <file>Icons/Speaker.png</file>
+    <file>Icons/Star Off.png</file>
+    <file>Icons/Star On.png</file>
+    <file>Icons/Stop 2.png</file>
+    <file>Icons/Stop.png</file>
+    <file>Icons/System Activity Monitor.png</file>
+    <file>Icons/System Equalizer.png</file>
+    <file>Icons/System Preferences.png</file>
+    <file>Icons/System Terminal.png</file>
+    <file>Icons/Toolbar Icons png (1).zip</file>
+    <file>Icons/Trash Empty.png</file>
+    <file>Icons/Trash Full.png</file>
+    <file>Icons/Trash Shredder.png</file>
+    <file>Icons/TV Off.png</file>
+    <file>Icons/TV On.png</file>
+    <file>Icons/User.png</file>
+    <file>Icons/Users.png</file>
+    <file>Icons/WiFi Singal.png</file>
+    <file>Icons/Window Move.png</file>
+    <file>Icons/Window Resize.png</file>
+    <file>Icons/Window.png</file>
+    <file>Icons/node.png</file>
+    <file>Icons/node_action_control.png</file>
+    <file>Icons/node_action_gfx.png</file>
+    <file>Icons/node_action_impact.png</file>
+    <file>Icons/node_action_move.png</file>
+    <file>Icons/node_action_obj.png</file>
+    <file>Icons/node_action_scan.png</file>
+    <file>Icons/node_cond.png</file>
+    <file>Icons/node_section.png</file>
+  </qresource>
+</RCC>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<skill id="root">
+    <section id="onstart">
+        <action id="savepos" postype="2" posxoff="13000" poszoff="4800"/>
+        <action id="createnpc" npctype="1" npcid="312" postype="6" objname="1"/>
+        <action id="wait" time="1200"/>
+        <action id="savepos" postype="2" posxoff="12600" poszoff="4800"/>
+        <action id="createnpc" npctype="1" npcid="313" postype="6" objname="2"/>
+        <action id="wait" time="1400"/>
+        <action id="savepos" postype="2" posxoff="13000" poszoff="5200"/>
+        <action id="createnpc" npctype="1" npcid="314" postype="6" objname="3"/>
+        <action id="wait" time="1000"/>
+        <action id="savepos" postype="2" posxoff="13800" poszoff="4000"/>
+        <action id="createnpc" npctype="1" npcid="312" postype="6" objname="4"/>
+        <action id="wait"/>
+        <action id="savepos" targettype="1" postype="3"/>
+        <action id="createnpc" npctype="1" npcid="313" postype="3" objname="5"/>
+        <action id="wait" time="1800"/>
+        <action id="savepos" postype="2" posxoff="12200" poszoff="4000"/>
+        <action id="createnpc" npctype="1" npcid="314" postype="6" objname="6"/>
+        <action id="wait" time="1200"/>
+        <action id="savepos" postype="2" posxoff="14200" poszoff="4800"/>
+        <action id="createnpc" npctype="1" npcid="312" postype="6" objname="7"/>
+        <action id="wait" time="1000"/>
+        <action id="savepos" targettype="1" postype="3"/>
+        <action id="createnpc" npctype="1" npcid="313" postype="3" objname="8"/>
+        <action id="wait" time="1300"/>
+        <action id="savepos" postype="2" posxoff="13800" poszoff="5600"/>
+        <action id="createnpc" npctype="1" npcid="314" postype="6" objname="9"/>
+        <action id="wait" time="1000"/>
+        <action id="savepos" postype="2" posxoff="13000" poszoff="3600"/>
+        <action id="createnpc" npctype="1" npcid="312" postype="6" objname="10"/>
+        <action id="wait" time="1200"/>
+        <action id="savepos" targettype="1" postype="3"/>
+        <action id="createnpc" npctype="1" npcid="313" postype="3" objname="11"/>
+        <action id="wait" time="1400"/>
+        <action id="savepos" postype="2" posxoff="13400" poszoff="4800"/>
+        <action id="createnpc" npctype="1" npcid="314" postype="6" objname="12"/>
+        <action id="wait" time="1600"/>
+        <action id="savepos" postype="2" posxoff="13000" poszoff="6000"/>
+        <action id="createnpc" npctype="1" npcid="312" postype="6" objname="1"/>
+        <action id="wait" time="1300"/>
+        <action id="savepos" targettype="1" postype="3"/>
+        <action id="createnpc" npctype="1" npcid="313" postype="3" objname="2"/>
+    </section>
+    <infos/>
+</skill>

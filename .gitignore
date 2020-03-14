@@ -1,0 +1,14 @@
+*.swp
+*~
+*.pdb
+.DS_Store
+.eslintcache
+Thumbs.db
+.svn
+.nvm-version
+.vscode
+.sdf
+.user
+.suo
+/Bin/Log/
+/x64/

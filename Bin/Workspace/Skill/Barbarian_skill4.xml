@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<skill id="root">
+    <section id="onstart">
+        <action id="playanim" animid="%0" isautodel="1"/>
+        <action id="addimpact" impactid="%1" targettype="2" isautodel="1"/>
+        <action id="wait" time="300"/>
+        <action id="addimpact" impactid="%1" targettype="2" isautodel="1"/>
+        <action id="wait" time="300"/>
+        <action id="addimpact" impactid="%1" targettype="2" isautodel="1"/>
+        <action id="wait" time="300"/>
+    </section>
+    <section id="ontick" interval="300">
+        <action id="select">
+            <action id="if" condtype0="104" condvalue0_0="1" condvalue0_1="5" condvalue0_2="4">
+                <cond id="cmpbaseattr" attrtype="1" cmptype="5" value="4"/>
+                <action id="breakskill"/>
+            </action>
+            <action id="if">
+                <action id="addimpact" impactid="%1" targettype="2" isautodel="1"/>
+                <action id="addimpact" impactid="%2" targettype="2" isautodel="1"/>
+            </action>
+        </action>
+    </section>
+    <infos/>
+</skill>

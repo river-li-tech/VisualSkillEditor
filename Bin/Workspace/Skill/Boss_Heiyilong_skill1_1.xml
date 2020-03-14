@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<skill id="root">
+    <section id="onstart">
+        <action id="scancircle" objtype="4" radius="700"/>
+        <action id="select">
+            <action id="if" condvalue0_0="1">
+                <cond id="hastarget" targettype="16"/>
+                <action id="playanim" animid="1136"/>
+                <action id="wait" time="532"/>
+                <action id="savepos" targettype="2" postype="1" maxrandrange="1500"/>
+                <action id="movetopos" duration="1310" speed="7400" postype="6" isfaceto="0"/>
+                <action id="loop" count="4">
+                    <action id="setfaceto" targettype="1" postype="3" rotspeed="300" isfacemodel="1"/>
+                    <action id="wait" time="300"/>
+                </action>
+                <action id="wait" time="110"/>
+            </action>
+            <action id="if" condvalue0_0="1">
+                <action id="playanim" animid="1114"/>
+                <action id="setfaceto" targettype="1" postype="3" rotspeed="600" isfacemodel="1"/>
+                <action id="wait" time="833"/>
+            </action>
+        </action>
+        <action id="playrangeeffect" effecttype="8" effectshowtype="1" effecttime="1000" effectdisapeartime="1000" effectparam1="1900" effectparam2="90"/>
+        <action id="wait" time="1000"/>
+        <action id="playanim" animid="1117"/>
+        <action id="wait" time="620"/>
+        <action id="scanray" objtype="4" maxnum="1" length="%2" width="%3" dir="45"/>
+        <action id="addimpact" impactid="%1" targettype="16" maxnum="1"/>
+        <action id="addimpact" impactid="299" targettype="2" maxnum="1"/>
+        <action id="addimpact" impactid="296" targettype="2" maxnum="1"/>
+        <action id="wait" time="121"/>
+        <action id="scanray" objtype="4" maxnum="1" length="%2" width="%3" dir="21"/>
+        <action id="addimpact" impactid="%1" targettype="16" maxnum="1"/>
+        <action id="addimpact" impactid="299" targettype="2" maxnum="1"/>
+        <action id="addimpact" impactid="296" targettype="2" maxnum="1"/>
+        <action id="wait" time="333"/>
+        <action id="scanray" objtype="4" maxnum="1" length="%2" width="%3" dir="-1"/>
+        <action id="addimpact" impactid="%1" targettype="16" maxnum="1"/>
+        <action id="addimpact" impactid="299" targettype="2" maxnum="1"/>
+        <action id="addimpact" impactid="296" targettype="2" maxnum="1"/>
+        <action id="wait" time="242"/>
+        <action id="scanray" objtype="4" maxnum="1" length="%2" width="%3" dir="-24"/>
+        <action id="addimpact" impactid="%1" targettype="16" maxnum="1"/>
+        <action id="addimpact" impactid="299" targettype="2" maxnum="1"/>
+        <action id="addimpact" impactid="296" targettype="2" maxnum="1"/>
+        <action id="wait" time="212"/>
+        <action id="scanray" objtype="4" maxnum="1" length="%2" width="%3" dir="-48"/>
+        <action id="addimpact" impactid="%1" targettype="16" maxnum="1"/>
+        <action id="addimpact" impactid="299" targettype="2" maxnum="1"/>
+        <action id="addimpact" impactid="296" targettype="2" maxnum="1"/>
+        <action id="wait" time="1139"/>
+        <action id="finishskill"/>
+    </section>
+    <infos>
+        <info id="0" info="扫描间隔"/>
+    </infos>
+</skill>

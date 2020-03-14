@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<skill id="root">
+    <section id="onstart">
+        <action id="playanim" animid="1118"/>
+        <action id="wait" time="833"/>
+        <action id="playanim" animid="1119"/>
+        <action id="setfaceto" targettype="1" postype="3" rotspeed="300" isfacemodel="1"/>
+        <action id="wait" time="500"/>
+        <action id="setfaceto" targettype="1" postype="3" rotspeed="300" isfacemodel="1"/>
+        <action id="wait" time="633"/>
+        <action id="playanim" animid="1120"/>
+        <action id="wait" time="367"/>
+        <action id="loop">
+            <action id="playanim" animid="1121"/>
+            <action id="playrangeeffect" effecttype="1" effectshowtype="3" effecttime="900" effectdisapeartime="900" effectparam1="2100" effectparam2="500"/>
+            <action id="wait" time="1000"/>
+            <action id="savepos" postype="1" posdisoff="250"/>
+            <action id="createnpc" npctype="1" npcid="310" postype="6"/>
+            <action id="wait" time="50"/>
+            <action id="savepos" postype="1" posdisoff="750"/>
+            <action id="createnpc" npctype="1" npcid="310" postype="6"/>
+            <action id="wait" time="50"/>
+            <action id="savepos" postype="1" posdisoff="1250"/>
+            <action id="createnpc" npctype="1" npcid="310" postype="6"/>
+            <action id="wait" time="50"/>
+            <action id="savepos" postype="1" posdisoff="1750"/>
+            <action id="createnpc" npctype="1" npcid="310" postype="6"/>
+            <action id="wait" time="250"/>
+        </action>
+        <action id="playanim" animid="1122"/>
+    </section>
+    <infos/>
+</skill>

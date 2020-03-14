@@ -1,0 +1,14 @@
+Id	Desc	IsClientSkill	LogicFile	LogicParam01	LogicParam02	LogicParam03	LogicParam04	LogicParam05	LogicParam06	LogicParam07	LogicParam08	LogicParam09	LogicParam10	LogicParam11	LogicParam12	LogicParam13	LogicParam14	LogicParam15	LogicParam16	LogicParam17	LogicParam18	LogicParam19	LogicParam20
+INT	STRING	INT	STRING	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT
+#MAX_ID=999999;MAX_RECORD=9999;TableType=Hash;																							
+#程序不读 ID	描述	是否是客户端技能（主角技能）	逻辑文件 xml格式	逻辑参数1	逻辑参数2	逻辑参数3	逻辑参数4	逻辑参数5	逻辑参数6	逻辑参数7	逻辑参数8	逻辑参数9	逻辑参数10	逻辑参数11	逻辑参数12	逻辑参数13	逻辑参数14	逻辑参数15	逻辑参数16	逻辑参数17	逻辑参数18	逻辑参数19	逻辑参数20
+42	黑翼龙火焰横扫1	-1	Skill/Boss_Heiyilong_skill1_1.xml	300	276	1800	400	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1
+43	黑翼龙火焰横扫2	-1	Skill/Boss_Heiyilong_skill1_2.xml	300	276	1800	400	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1
+44	黑翼龙直线喷火1	-1	Skill/Boss_Heiyilong_skill2_1.xml	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1
+45	黑翼龙直线喷火2	-1	Skill/Boss_Heiyilong_skill2_2.xml	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1
+46	黑翼龙龙吼	-1	Skill/Boss_Heiyilong_skill3.xml	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1
+47	黑翼龙行为眩晕+怒吼+龙车	-1	Skill/Boss_Heiyilong_action_1.xml	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1
+49	黑翼龙多火球	-1	Skill/Boss_Heiyilong_action_2.xml	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1
+51	黑翼龙龙车	-1	Skill/Boss_Heiyilong_skill4.xml	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1
+51001	野蛮人旋风斩	1	Skill/Barbarian_skill4.xml	1070	51001	51004	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1
+58	黑龙踱步	-1	Skill/Boss_Heiyilong_action_8.xml	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1

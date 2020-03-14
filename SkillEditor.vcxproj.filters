@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Source Files\Skill">
+      <UniqueIdentifier>{2ccf7386-8cb3-49e5-a29f-b477cd4a3338}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Widget">
+      <UniqueIdentifier>{ad18489d-5b8c-436e-a4c6-3f3efc18d4a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utils">
+      <UniqueIdentifier>{a4d82df9-7a9b-4029-ae89-02eb03e5e580}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Sources\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Log.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Settings.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\SkillSpec.cpp">
+      <Filter>Source Files\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\TableRow.cpp">
+      <Filter>Source Files\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Utils.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\SkillEditor.cpp">
+      <Filter>Source Files\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\SkillScript.cpp">
+      <Filter>Source Files\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\SkillInst.cpp">
+      <Filter>Source Files\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\CheckCombo.cpp">
+      <Filter>Source Files\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ParamWidget.cpp">
+      <Filter>Source Files\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\SkillGfx.cpp">
+      <Filter>Source Files\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\SettingsDialog.cpp">
+      <Filter>Source Files\Widget</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Sources\Log.h">
+      <Filter>Source Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Settings.h">
+      <Filter>Source Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\TableRow.h">
+      <Filter>Source Files\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_SkillEditor.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Utils.h">
+      <Filter>Source Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\stdafx.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\define.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Dict.h">
+      <Filter>Source Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_SettingsDialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SkillEditor.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="Sources\SkillSpec.h">
+      <Filter>Source Files\Skill</Filter>
+    </QtMoc>
+    <QtMoc Include="Sources\SkillEditor.h">
+      <Filter>Source Files\Widget</Filter>
+    </QtMoc>
+    <QtMoc Include="Sources\SkillScript.h">
+      <Filter>Source Files\Skill</Filter>
+    </QtMoc>
+    <QtMoc Include="Sources\SkillInst.h">
+      <Filter>Source Files\Skill</Filter>
+    </QtMoc>
+    <QtMoc Include="Sources\CheckCombo.h">
+      <Filter>Source Files\Widget</Filter>
+    </QtMoc>
+    <QtMoc Include="Sources\ParamWidget.h">
+      <Filter>Source Files\Widget</Filter>
+    </QtMoc>
+    <QtMoc Include="Sources\SkillGfx.h">
+      <Filter>Source Files\Skill</Filter>
+    </QtMoc>
+    <QtMoc Include="Sources\SettingsDialog.h">
+      <Filter>Source Files\Widget</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="SkillEditor.qrc" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="SkillEditor.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="SettingsDialog.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+  </ItemGroup>
+</Project>

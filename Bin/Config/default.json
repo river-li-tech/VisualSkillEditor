@@ -1,0 +1,11 @@
+{
+"custom_skill_inst_dir":"/../../../PublicTables/",
+
+"custom_skill_gfx_dir":"/../../../ClientTables/",
+
+"custom_skill_script_dir":"/../../../../Server/",
+
+"show_icons":"0",
+
+"serial_txt":"1"
+}

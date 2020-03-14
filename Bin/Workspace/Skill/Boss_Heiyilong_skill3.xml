@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<skill id="root">
+    <section id="onstart">
+        <action id="setfaceto" targettype="1" postype="3" rotspeed="600" isfacemodel="1"/>
+        <action id="wait" time="500"/>
+        <action id="playrangeeffect" effecttype="9" effectshowtype="1" effecttime="1500" effectdisapeartime="1500" effectparam1="2100" effectparam2="180"/>
+    </section>
+    <infos>
+        <info id="0" info="扫描间隔"/>
+    </infos>
+</skill>

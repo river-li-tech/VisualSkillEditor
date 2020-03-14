@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<skill id="root">
+    <section id="onstart">
+        <action id="scancircle" objtype="4" radius="20000"/>
+        <action id="select">
+            <action id="if" condvalue0_0="1">
+                <cond id="testtargetdir" targettype="16" mindir="45" maxdir="135"/>
+                <cond id="testrandom" rand="500"/>
+                <action id="playanim" animid="1140" isautodel="1"/>
+                <action id="telemoveto" duration="2623" distance="200"/>
+            </action>
+            <action id="if" condvalue0_0="1">
+                <cond id="testtargetdir" targettype="16" mindir="225" maxdir="315"/>
+                <cond id="testrandom" rand="500"/>
+                <action id="playanim" animid="1141" isautodel="1"/>
+                <action id="telemoveto" duration="2623" distance="200"/>
+            </action>
+            <action id="if" condvalue0_0="1">
+                <action id="playanim" animid="0"/>
+            </action>
+        </action>
+    </section>
+    <section id="onfinish">
+        <action id="stopmove"/>
+        <action id="stopanim" animid="1140"/>
+        <action id="stopanim" animid="1141"/>
+    </section>
+    <infos/>
+</skill>
