@@ -5,7 +5,7 @@
 本仓库包含以下内容：
 
 1. 全部的编辑器[代码](Sources)。
-2. 相关的[帮助文档](https://github.com/River-Li-1024/VisualSkillEditor/wiki)。
+2. 编辑器相关[帮助文档wiki](https://github.com/River-Li-1024/VisualSkillEditor/wiki)。
 3. 演示全部功能的[实例](Bin/Workspace)。
 4. 直接可用的[Win32版本](Versions)。
 5. 全部的[指令集](Bin/Config/SkillSpec.xml)及其描述说明。
@@ -40,7 +40,9 @@
 
 1.  提供30+条指令，全部为瞬发指令，基本满足正交性，各自独立且便于扩展；
 2.  使用xml格式来保存技能逻辑，同时提供一套标准化的解析和执行运行时(额外提供)；
-3.  可视化编辑，在编辑器中拖拽指令和控制结构，一目了然；
+3.  可视化编辑，在编辑器中拖拽指令和逻辑控制结构；
+4.  编辑器界面由[指令集描述文件](Bin/Config/SkillSpec.xml)自动生成，修改此文件可将工具用于于剧情编辑、AI编辑等；
+5.  完善的[帮助文档wiki](https://github.com/River-Li-1024/VisualSkillEditor/wiki)；
 
 ## 界面
 
