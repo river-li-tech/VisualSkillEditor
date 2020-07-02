@@ -1,0 +1,267 @@
+ [Info ][2020-07-02-10:34:18]:------------------------start---------------------------- <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\Log.cpp) Line:(28)>
+ [Warn ][2020-07-02-10:34:19]:load skill spec file not exists, fileName: "Config/SkillSpec.xml" <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillSpec.cpp) Line:(184)>
+ [Warn ][2020-07-02-10:34:19]:load config file error.file(E:/12_fatan_code/Tools/VisualSkillEditor/SkillEditor/Config/default.json) <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\Settings.cpp) Line:(72)>
+ [Warn ][2020-07-02-10:34:19]:libpng warning: iCCP: known incorrect sRGB profile <File:(image\qpnghandler.cpp) Line:(525)>
+ [Warn ][2020-07-02-10:34:19]:libpng warning: iCCP: known incorrect sRGB profile <File:(image\qpnghandler.cpp) Line:(525)>
+ [Warn ][2020-07-02-10:34:19]:libpng warning: iCCP: known incorrect sRGB profile <File:(image\qpnghandler.cpp) Line:(525)>
+ [Warn ][2020-07-02-10:34:19]:libpng warning: iCCP: known incorrect sRGB profile <File:(image\qpnghandler.cpp) Line:(525)>
+ [Warn ][2020-07-02-10:34:19]:libpng warning: iCCP: known incorrect sRGB profile <File:(image\qpnghandler.cpp) Line:(525)>
+ [Warn ][2020-07-02-10:34:19]:libpng warning: iCCP: known incorrect sRGB profile <File:(image\qpnghandler.cpp) Line:(525)>
+ [Warn ][2020-07-02-10:34:19]:libpng warning: iCCP: known incorrect sRGB profile <File:(image\qpnghandler.cpp) Line:(525)>
+ [Warn ][2020-07-02-10:34:19]:libpng warning: iCCP: known incorrect sRGB profile <File:(image\qpnghandler.cpp) Line:(525)>
+ [Warn ][2020-07-02-10:34:19]:libpng warning: iCCP: known incorrect sRGB profile <File:(image\qpnghandler.cpp) Line:(525)>
+ [Warn ][2020-07-02-10:34:19]:libpng warning: iCCP: known incorrect sRGB profile <File:(image\qpnghandler.cpp) Line:(525)>
+ [Warn ][2020-07-02-10:34:19]:libpng warning: iCCP: known incorrect sRGB profile <File:(image\qpnghandler.cpp) Line:(525)>
+ [Warn ][2020-07-02-10:34:19]:libpng warning: iCCP: known incorrect sRGB profile <File:(image\qpnghandler.cpp) Line:(525)>
+ [Warn ][2020-07-02-10:34:19]:libpng warning: iCCP: known incorrect sRGB profile <File:(image\qpnghandler.cpp) Line:(525)>
+ [Warn ][2020-07-02-10:34:19]:libpng warning: iCCP: known incorrect sRGB profile <File:(image\qpnghandler.cpp) Line:(525)>
+ [Warn ][2020-07-02-10:34:19]:libpng warning: iCCP: known incorrect sRGB profile <File:(image\qpnghandler.cpp) Line:(525)>
+ [Warn ][2020-07-02-10:34:19]:libpng warning: iCCP: known incorrect sRGB profile <File:(image\qpnghandler.cpp) Line:(525)>
+ [Warn ][2020-07-02-10:34:19]:libpng warning: iCCP: known incorrect sRGB profile <File:(image\qpnghandler.cpp) Line:(525)>
+ [Warn ][2020-07-02-10:34:19]:libpng warning: iCCP: known incorrect sRGB profile <File:(image\qpnghandler.cpp) Line:(525)>
+ [Warn ][2020-07-02-10:34:19]:libpng warning: iCCP: known incorrect sRGB profile <File:(image\qpnghandler.cpp) Line:(525)>
+ [Warn ][2020-07-02-10:34:19]:libpng warning: iCCP: known incorrect sRGB profile <File:(image\qpnghandler.cpp) Line:(525)>
+ [Warn ][2020-07-02-10:34:19]:libpng warning: iCCP: known incorrect sRGB profile <File:(image\qpnghandler.cpp) Line:(525)>
+ [Warn ][2020-07-02-10:34:19]:libpng warning: iCCP: known incorrect sRGB profile <File:(image\qpnghandler.cpp) Line:(525)>
+ [Debug][2020-07-02-10:34:21]:onSkillPoolChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1155)>
+ [Warn ][2020-07-02-10:34:21]:load skill inst file not exists, fileName: "E:/12_fatan_code/Tools/VisualSkillEditor/SkillEditor/WorkSpace/SkillInst.txt" <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillInst.cpp) Line:(67)>
+ [Debug][2020-07-02-10:34:22]:onSkillPoolChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1155)>
+ [Info ][2020-07-02-10:36:39]:------------------------start---------------------------- <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\Log.cpp) Line:(28)>
+ [Warn ][2020-07-02-10:36:40]:libpng warning: iCCP: known incorrect sRGB profile <File:(image\qpnghandler.cpp) Line:(525)>
+ [Warn ][2020-07-02-10:36:40]:libpng warning: iCCP: known incorrect sRGB profile <File:(image\qpnghandler.cpp) Line:(525)>
+ [Warn ][2020-07-02-10:36:40]:libpng warning: iCCP: known incorrect sRGB profile <File:(image\qpnghandler.cpp) Line:(525)>
+ [Warn ][2020-07-02-10:36:40]:libpng warning: iCCP: known incorrect sRGB profile <File:(image\qpnghandler.cpp) Line:(525)>
+ [Warn ][2020-07-02-10:36:40]:libpng warning: iCCP: known incorrect sRGB profile <File:(image\qpnghandler.cpp) Line:(525)>
+ [Warn ][2020-07-02-10:36:40]:libpng warning: iCCP: known incorrect sRGB profile <File:(image\qpnghandler.cpp) Line:(525)>
+ [Warn ][2020-07-02-10:36:40]:libpng warning: iCCP: known incorrect sRGB profile <File:(image\qpnghandler.cpp) Line:(525)>
+ [Warn ][2020-07-02-10:36:40]:libpng warning: iCCP: known incorrect sRGB profile <File:(image\qpnghandler.cpp) Line:(525)>
+ [Warn ][2020-07-02-10:36:40]:libpng warning: iCCP: known incorrect sRGB profile <File:(image\qpnghandler.cpp) Line:(525)>
+ [Warn ][2020-07-02-10:36:40]:libpng warning: iCCP: known incorrect sRGB profile <File:(image\qpnghandler.cpp) Line:(525)>
+ [Warn ][2020-07-02-10:36:40]:libpng warning: iCCP: known incorrect sRGB profile <File:(image\qpnghandler.cpp) Line:(525)>
+ [Warn ][2020-07-02-10:36:40]:libpng warning: iCCP: known incorrect sRGB profile <File:(image\qpnghandler.cpp) Line:(525)>
+ [Warn ][2020-07-02-10:36:40]:libpng warning: iCCP: known incorrect sRGB profile <File:(image\qpnghandler.cpp) Line:(525)>
+ [Warn ][2020-07-02-10:36:40]:libpng warning: iCCP: known incorrect sRGB profile <File:(image\qpnghandler.cpp) Line:(525)>
+ [Warn ][2020-07-02-10:36:40]:libpng warning: iCCP: known incorrect sRGB profile <File:(image\qpnghandler.cpp) Line:(525)>
+ [Warn ][2020-07-02-10:36:40]:libpng warning: iCCP: known incorrect sRGB profile <File:(image\qpnghandler.cpp) Line:(525)>
+ [Warn ][2020-07-02-10:36:40]:libpng warning: iCCP: known incorrect sRGB profile <File:(image\qpnghandler.cpp) Line:(525)>
+ [Warn ][2020-07-02-10:36:40]:libpng warning: iCCP: known incorrect sRGB profile <File:(image\qpnghandler.cpp) Line:(525)>
+ [Warn ][2020-07-02-10:36:40]:libpng warning: iCCP: known incorrect sRGB profile <File:(image\qpnghandler.cpp) Line:(525)>
+ [Warn ][2020-07-02-10:36:40]:libpng warning: iCCP: known incorrect sRGB profile <File:(image\qpnghandler.cpp) Line:(525)>
+ [Warn ][2020-07-02-10:36:40]:libpng warning: iCCP: known incorrect sRGB profile <File:(image\qpnghandler.cpp) Line:(525)>
+ [Warn ][2020-07-02-10:36:40]:libpng warning: iCCP: known incorrect sRGB profile <File:(image\qpnghandler.cpp) Line:(525)>
+ [Debug][2020-07-02-10:36:41]:onSkillPoolChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1155)>
+ [Debug][2020-07-02-10:36:41]:onSkillPoolChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1155)>
+ [Debug][2020-07-02-10:36:44]:onTableSkillSelectionChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1296)>
+ [Debug][2020-07-02-10:36:44]:onSkillDataChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1172)>
+ [Debug][2020-07-02-10:36:44]:onSkillInstChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1188)>
+ [Debug][2020-07-02-10:36:44]:onSkillInstChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1188)>
+ [Debug][2020-07-02-10:36:44]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:44]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:44]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:44]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:44]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:44]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:44]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:44]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:44]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:44]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:44]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:44]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:44]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:44]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:44]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:44]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:44]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:44]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:44]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:44]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:44]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:44]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:44]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:44]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:44]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:44]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:44]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:44]:onSkillInstChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1188)>
+ [Debug][2020-07-02-10:36:44]:onTableSkillSelectionChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1296)>
+ [Debug][2020-07-02-10:36:44]:onSkillDataChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1172)>
+ [Debug][2020-07-02-10:36:44]:onSkillDataChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1172)>
+ [Debug][2020-07-02-10:36:44]:onSkillInstChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1188)>
+ [Debug][2020-07-02-10:36:44]:onSkillInstChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1188)>
+ [Debug][2020-07-02-10:36:44]:onSkillInstChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1188)>
+ [Debug][2020-07-02-10:36:44]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:44]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:44]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:44]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:44]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:44]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:44]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:44]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:44]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:44]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:44]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:44]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:44]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:44]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:44]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:44]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:44]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:44]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:44]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:44]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:44]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:44]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:44]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:44]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:44]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:44]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:44]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:44]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:44]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:44]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:44]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:44]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:44]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:44]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:44]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:44]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:44]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:44]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:44]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:44]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:44]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:44]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:44]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:44]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:44]:onSkillInstChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1188)>
+ [Debug][2020-07-02-10:36:45]:onTableSkillSelectionChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1296)>
+ [Debug][2020-07-02-10:36:45]:onSkillDataChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1172)>
+ [Debug][2020-07-02-10:36:45]:onSkillDataChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1172)>
+ [Debug][2020-07-02-10:36:45]:onSkillInstChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1188)>
+ [Debug][2020-07-02-10:36:45]:onSkillInstChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1188)>
+ [Debug][2020-07-02-10:36:45]:onSkillInstChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1188)>
+ [Debug][2020-07-02-10:36:45]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:45]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:45]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:45]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:45]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:45]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:45]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:45]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:45]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:45]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:45]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:45]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:45]:onSkillInstChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1188)>
+ [Debug][2020-07-02-10:36:45]:onTableSkillSelectionChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1296)>
+ [Debug][2020-07-02-10:36:45]:onSkillDataChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1172)>
+ [Debug][2020-07-02-10:36:45]:onSkillDataChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1172)>
+ [Debug][2020-07-02-10:36:45]:onSkillInstChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1188)>
+ [Debug][2020-07-02-10:36:45]:onSkillInstChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1188)>
+ [Debug][2020-07-02-10:36:45]:onSkillInstChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1188)>
+ [Debug][2020-07-02-10:36:45]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:45]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:45]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:45]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:45]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:45]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:45]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:45]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:45]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:45]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:45]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:45]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:45]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:45]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:45]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:45]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:45]:onSkillInstChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1188)>
+ [Debug][2020-07-02-10:36:45]:onTableSkillSelectionChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1296)>
+ [Debug][2020-07-02-10:36:45]:onSkillDataChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1172)>
+ [Debug][2020-07-02-10:36:45]:onSkillDataChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1172)>
+ [Debug][2020-07-02-10:36:45]:onSkillInstChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1188)>
+ [Debug][2020-07-02-10:36:45]:onSkillInstChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1188)>
+ [Debug][2020-07-02-10:36:45]:onSkillInstChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1188)>
+ [Debug][2020-07-02-10:36:45]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:45]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:45]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:45]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:45]:onSkillInstChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1188)>
+ [Debug][2020-07-02-10:36:45]:onTableSkillSelectionChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1296)>
+ [Debug][2020-07-02-10:36:45]:onSkillDataChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1172)>
+ [Debug][2020-07-02-10:36:45]:onSkillDataChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1172)>
+ [Debug][2020-07-02-10:36:45]:onSkillInstChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1188)>
+ [Debug][2020-07-02-10:36:45]:onSkillInstChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1188)>
+ [Debug][2020-07-02-10:36:45]:onSkillInstChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1188)>
+ [Debug][2020-07-02-10:36:45]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:45]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:45]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:45]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:45]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:45]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:45]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:45]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:45]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:45]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:45]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:45]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:45]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:45]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:45]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:45]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:45]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:45]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:45]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:45]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:45]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:45]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:45]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:45]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:45]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:45]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:45]:onModelSkillNodeChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1199)>
+ [Debug][2020-07-02-10:36:45]:onSkillInstChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1188)>
+ [Debug][2020-07-02-10:36:46]:onViewTreeItemSelectionChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1378)>
+ [Debug][2020-07-02-10:36:46]:onViewTreeItemSelectionChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1378)>
+ [Debug][2020-07-02-10:36:47]:onViewTreeItemSelectionChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1378)>
+ [Debug][2020-07-02-10:36:47]:onViewTreeItemSelectionChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1378)>
+ [Warn ][2020-07-02-10:36:47]:libpng warning: iCCP: known incorrect sRGB profile <File:(image\qpnghandler.cpp) Line:(525)>
+ [Warn ][2020-07-02-10:36:47]:libpng warning: iCCP: known incorrect sRGB profile <File:(image\qpnghandler.cpp) Line:(525)>
+ [Warn ][2020-07-02-10:36:47]:libpng warning: iCCP: known incorrect sRGB profile <File:(image\qpnghandler.cpp) Line:(525)>
+ [Warn ][2020-07-02-10:36:47]:libpng warning: iCCP: known incorrect sRGB profile <File:(image\qpnghandler.cpp) Line:(525)>
+ [Warn ][2020-07-02-10:36:47]:libpng warning: iCCP: known incorrect sRGB profile <File:(image\qpnghandler.cpp) Line:(525)>
+ [Warn ][2020-07-02-10:36:47]:libpng warning: iCCP: known incorrect sRGB profile <File:(image\qpnghandler.cpp) Line:(525)>
+ [Warn ][2020-07-02-10:36:47]:libpng warning: iCCP: known incorrect sRGB profile <File:(image\qpnghandler.cpp) Line:(525)>
+ [Warn ][2020-07-02-10:36:47]:libpng warning: iCCP: known incorrect sRGB profile <File:(image\qpnghandler.cpp) Line:(525)>
+ [Warn ][2020-07-02-10:36:47]:libpng warning: iCCP: known incorrect sRGB profile <File:(image\qpnghandler.cpp) Line:(525)>
+ [Warn ][2020-07-02-10:36:47]:libpng warning: iCCP: known incorrect sRGB profile <File:(image\qpnghandler.cpp) Line:(525)>
+ [Debug][2020-07-02-10:36:47]:onViewTreeItemSelectionChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1378)>
+ [Info ][2020-07-02-10:42:07]:------------------------start---------------------------- <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\Log.cpp) Line:(28)>
+ [Warn ][2020-07-02-10:42:07]:load skill spec file not exists, fileName: "Config/SkillSpec.xml" <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillSpec.cpp) Line:(184)>
+ [Warn ][2020-07-02-10:42:07]:load config file error.file(E:/12_fatan_code/Tools/VisualSkillEditor/SkillEditor/Config/default.json) <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\Settings.cpp) Line:(72)>
+ [Warn ][2020-07-02-10:42:07]:libpng warning: iCCP: known incorrect sRGB profile <File:(image\qpnghandler.cpp) Line:(525)>
+ [Warn ][2020-07-02-10:42:07]:libpng warning: iCCP: known incorrect sRGB profile <File:(image\qpnghandler.cpp) Line:(525)>
+ [Warn ][2020-07-02-10:42:07]:libpng warning: iCCP: known incorrect sRGB profile <File:(image\qpnghandler.cpp) Line:(525)>
+ [Warn ][2020-07-02-10:42:07]:libpng warning: iCCP: known incorrect sRGB profile <File:(image\qpnghandler.cpp) Line:(525)>
+ [Warn ][2020-07-02-10:42:07]:libpng warning: iCCP: known incorrect sRGB profile <File:(image\qpnghandler.cpp) Line:(525)>
+ [Warn ][2020-07-02-10:42:07]:libpng warning: iCCP: known incorrect sRGB profile <File:(image\qpnghandler.cpp) Line:(525)>
+ [Warn ][2020-07-02-10:42:07]:libpng warning: iCCP: known incorrect sRGB profile <File:(image\qpnghandler.cpp) Line:(525)>
+ [Warn ][2020-07-02-10:42:07]:libpng warning: iCCP: known incorrect sRGB profile <File:(image\qpnghandler.cpp) Line:(525)>
+ [Warn ][2020-07-02-10:42:07]:libpng warning: iCCP: known incorrect sRGB profile <File:(image\qpnghandler.cpp) Line:(525)>
+ [Warn ][2020-07-02-10:42:07]:libpng warning: iCCP: known incorrect sRGB profile <File:(image\qpnghandler.cpp) Line:(525)>
+ [Warn ][2020-07-02-10:42:07]:libpng warning: iCCP: known incorrect sRGB profile <File:(image\qpnghandler.cpp) Line:(525)>
+ [Warn ][2020-07-02-10:42:07]:libpng warning: iCCP: known incorrect sRGB profile <File:(image\qpnghandler.cpp) Line:(525)>
+ [Warn ][2020-07-02-10:42:07]:libpng warning: iCCP: known incorrect sRGB profile <File:(image\qpnghandler.cpp) Line:(525)>
+ [Warn ][2020-07-02-10:42:07]:libpng warning: iCCP: known incorrect sRGB profile <File:(image\qpnghandler.cpp) Line:(525)>
+ [Warn ][2020-07-02-10:42:07]:libpng warning: iCCP: known incorrect sRGB profile <File:(image\qpnghandler.cpp) Line:(525)>
+ [Warn ][2020-07-02-10:42:07]:libpng warning: iCCP: known incorrect sRGB profile <File:(image\qpnghandler.cpp) Line:(525)>
+ [Warn ][2020-07-02-10:42:07]:libpng warning: iCCP: known incorrect sRGB profile <File:(image\qpnghandler.cpp) Line:(525)>
+ [Warn ][2020-07-02-10:42:07]:libpng warning: iCCP: known incorrect sRGB profile <File:(image\qpnghandler.cpp) Line:(525)>
+ [Warn ][2020-07-02-10:42:07]:libpng warning: iCCP: known incorrect sRGB profile <File:(image\qpnghandler.cpp) Line:(525)>
+ [Warn ][2020-07-02-10:42:07]:libpng warning: iCCP: known incorrect sRGB profile <File:(image\qpnghandler.cpp) Line:(525)>
+ [Warn ][2020-07-02-10:42:07]:libpng warning: iCCP: known incorrect sRGB profile <File:(image\qpnghandler.cpp) Line:(525)>
+ [Warn ][2020-07-02-10:42:07]:libpng warning: iCCP: known incorrect sRGB profile <File:(image\qpnghandler.cpp) Line:(525)>
+ [Debug][2020-07-02-10:42:08]:onSkillPoolChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1155)>
+ [Warn ][2020-07-02-10:42:08]:load skill inst file not exists, fileName: "E:/12_fatan_code/Tools/VisualSkillEditor/SkillEditor/Project/SkillInst.txt" <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillInst.cpp) Line:(67)>
+ [Debug][2020-07-02-10:42:37]:onTimerOut <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1449)>
+ [Debug][2020-07-02-10:42:42]:onSkillPoolChanged <File:(e:\12_fatan_code\Tools\VisualSkillEditor\SkillEditor\SkillEditor.cpp) Line:(1155)>
