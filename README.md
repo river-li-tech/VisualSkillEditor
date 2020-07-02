@@ -46,7 +46,7 @@
 
 ## 界面
 
-![主界面](Guild/editor-main.png)
+![主界面](SkillEditor/Guild/editor-main.png)
 
 ## 文档
 
@@ -61,7 +61,7 @@
 + 段落-自定义段落：id可自定义，通过gotosection触发调用，相当于过程调用；
 + 段落-自定义事件：id可自定义，通过sendevent触发，与其他段落并发执行；
 
-![段落结构](Guild/guild-sections.png)
+![段落结构](SkillEditor/Guild/guild-sections.png)
 
 ### 技能指令
 
@@ -75,20 +75,20 @@
 + 指令-效果：操作效果(impact)；
 + 指令-工具：辅助指令，只用于编辑器；
 
-![事件指令列表1](Guild/guild-actions1.png)
-![事件指令列表1](Guild/guild-actions2.png)
+![事件指令列表1](SkillEditor/Guild/guild-actions1.png)
+![事件指令列表1](SkillEditor/Guild/guild-actions2.png)
 
 **条件指令**抽象出逻辑控制中可能的一些判断条件，用于运行时修改技能的执行轨迹。
 >条件指令只返回true/false，供事件指令中的控制指令使用；
 >只对个别必需的条件才独立为指令，因此条件指令的数目需要严格控制。
 在项目实践中发现，多数策划难以驾驭过于复杂的控制逻辑，所以在设计中倾向于将条件内置到事件指令中（作为其一个参数）。
 
-![条件指令列表](Guild/guild-conds.png)
+![条件指令列表](SkillEditor/Guild/guild-conds.png)
 
 ### 参数说明
 
 每个指令都具有多个参数，通过key-value的方式描述。以scancircle(圆形扫描)为例：
-![参数说明](Guild/guild-params.png)
+![参数说明](SkillEditor/Guild/guild-params.png)
 如图所示，参数中规定了此指令的数据类型和范围，以及是否需要强制配置等信息
 
 以上截图来自[指令集描述文件](Bin/Config/SkillSpec.xml)
